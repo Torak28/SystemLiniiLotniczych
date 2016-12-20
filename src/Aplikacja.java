@@ -5,25 +5,25 @@ import java.util.List;
  * Created by Torak28 on 20.12.2016.
  */
 public class Aplikacja {
-    public List<String>  Flota = new ArrayList<String>();
-    public List<String>  Loty = new ArrayList<String>();
+    private List<String>  Flota = new ArrayList<String>();
+    private List<String>  Loty = new ArrayList<String>();
 
-    private boolean dodajSamolot(){
+    public boolean dodajSamolot(){
         return true;
     }
-    private boolean  usunSamolot(){
+    public boolean  usunSamolot(){
         return true;
     }
-    private boolean  dodajLot(){
+    public boolean  dodajLot(){
         return true;
     }
-    private boolean  usunLot(){
+    public boolean  usunLot(){
         return true;
     }
-    private boolean  szukajSamolotu(int ID){
+    public boolean  szukajSamolotu(int ID){
         return true;
     }
-    private boolean  szukajLotu(int NL){
+    public boolean  szukajLotu(int NL){
         return true;
     }
     public  Aplikacja(int a){
