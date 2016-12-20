@@ -40,7 +40,11 @@ public class Lot {
         return false;
     }
     public boolean dodajBiletZarezerwowany(){
-        return true;
+        Bilet dodawanyBilet = new Bilet(numerLotu, 2, numerLotu/10, numerLotu%10, 10, 10);
+        if(Bilety.add(dodawanyBilet)){
+            return true;
+        }
+        return false;
     }
     public boolean usunBiletKupiony(){
         return true;
@@ -67,6 +71,15 @@ public class Lot {
         }
         return false;
     }
+
+    //wypisuje wszystkie bilety
+    public void wypisz(){
+        int it = Bilety.size();
+        for(int i = 0; i < it; i++){
+            System.out.println("Numer lotu: " + Bilety.get(i).getNumerLotu() + "\nTyp: " + Bilety.get(i).getTyp());
+        }
+    }
+
     public Lot(int NL, int IK, int IZ, Samolot S){
         numerLotu = NL;
         iloscZarezerwowanych = IZ;

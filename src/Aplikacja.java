@@ -71,6 +71,10 @@ public class Aplikacja {
 
         //dodaje bilet do konkretnego lotu
         aplikacja.szukajLotu(12);
+        Lot AktualnyLot = aplikacja.getLot(12);
+        AktualnyLot.dodajBiletKupiony();
+        AktualnyLot.dodajBiletZarezerwowany();
+        AktualnyLot.wypisz();
 
 
         System.out.println(31/10);
