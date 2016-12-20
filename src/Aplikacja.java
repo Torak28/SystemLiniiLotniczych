@@ -75,8 +75,5 @@ public class Aplikacja {
         AktualnyLot.dodajBiletKupiony();
         AktualnyLot.dodajBiletZarezerwowany();
         AktualnyLot.wypisz();
-
-
-        System.out.println(31/10);
     }
 }

@@ -35,7 +35,7 @@ Na etapie projektowym założyliśmy dwie kluczowe dla Naszego Diagramu Klas za�
 
 #Diagram Klas:
 
-![alt text](http://i.imgur.com/6BMgG7w.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/ykXS2g4.png "Logo Title Text 1")
 
 ###Komentarz do Diagramu:
 Przede wszystkim podczas projektowania Klas kierowaliśmy się pełną enkapsulacją oraz maksymalnym ograniczeniem i uproszczeniem danych. Są jednak pewne elementy, które wymagają szczególnej uwagi oraz dodatkowego komentarza:
