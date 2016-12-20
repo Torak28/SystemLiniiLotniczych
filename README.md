@@ -11,26 +11,20 @@ Przygotowali
 
 #Wymagania Funkcjonalne i niefunkcjonalne:
 1. Lista wymagań funkcjonalnych:
-..* System zawiera rozkład lotów do którego można dodawać i usuwać poszczególne
+	1. System zawiera rozkład lotów do którego można dodawać i usuwać poszczególne
 elementy,
-..* Można dokonać zakupu biletu lub jego rezerwacji,
-..* Można wprowadzić wiele biletów o unikalnych numerach,
-..* System dopuszcza anulowanie zamówienia jeśli spełnione są warunki,
-..* Konsultant jest pracownikiem linii lotniczych, komunikuje się z klientami. Jego
-praca jest wspierana za pomocą systemu,
-..* Przeszukiwanie listy pasażerów danego Lotu w celu sprawdzenia czy
-rezerwacja/zakup biletu jest możliwy,
-..* Generowanie pełnej informacji o locie wraz z lista pasażerów i ich
-rozmieszczeniem w samolocie.
+	2. Można dokonać zakupu biletu lub jego rezerwacji,
+	3. Można wprowadzić wiele biletów o unikalnych numerach,
+	4. System dopuszcza anulowanie zamówienia jeśli spełnione są warunki,
+	5. Konsultant jest pracownikiem linii lotniczych, komunikuje się z klientami. Jego praca jest wspierana za pomocą systemu,
+	6. Przeszukiwanie listy pasażerów danego Lotu w celu sprawdzenia czy rezerwacja/zakup biletu jest możliwy,
+	7. Generowanie pełnej informacji o locie wraz z lista pasażerów i ich rozmieszczeniem w samolocie.
 
 2. Lista wymagań niefunkcjonalnych:
-..* Dodawanie i usuwanie lotów obywa się tylko za pośrednictwem uprawnionych
-osób,
-..* Wstawianie nowych biletów oraz ich rezerwacja dokonywana jest przez
-klientów/pasażerów,
-..* Zakup oraz rezerwacja odbywają się za pośrednictwem Internetu lub specjalnie
-przygotowanych aplikacji,
-..* Rezerwacje należy potwierdzić maksymalnie dzień przed lotem.
+	1. Dodawanie i usuwanie lotów obywa się tylko za pośrednictwem uprawnionych osób,
+	2. Wstawianie nowych biletów oraz ich rezerwacja dokonywana jest przez klientów/pasażerów,
+	3. Zakup oraz rezerwacja odbywają się za pośrednictwem Internetu lub specjalnie przygotowanych aplikacji,
+	4. Rezerwacje należy potwierdzić maksymalnie dzień przed lotem.
 
 #Założenia, uproszcznia:
 Na etapie projektowym założyliśmy dwie kluczowe dla Naszego Diagramu Klas założenia:
