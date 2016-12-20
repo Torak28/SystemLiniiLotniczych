@@ -5,7 +5,7 @@ import java.util.List;
  * Created by Torak28 on 20.12.2016.
  */
 public class Lot {
-    private List<String> Bilety = new ArrayList<String>();
+    private List<Bilet> Bilety = new ArrayList<Bilet>();
     Samolot samolot;
     private int numerLotu;
     private int iloscKupionych;
