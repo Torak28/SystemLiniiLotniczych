@@ -33,7 +33,11 @@ public class Lot {
         return true;
     }
     public boolean dodajBiletKupiony(){
-        return true;
+        Bilet dodawanyBilet = new Bilet(numerLotu, 1, numerLotu/10, numerLotu%10, 10, 10);
+        if(Bilety.add(dodawanyBilet)){
+            return true;
+        }
+        return false;
     }
     public boolean dodajBiletZarezerwowany(){
         return true;
@@ -61,6 +65,7 @@ public class Lot {
                 return true;
             }
         }
+        return false;
     }
     public Lot(int NL, int IK, int IZ, Samolot S){
         numerLotu = NL;
