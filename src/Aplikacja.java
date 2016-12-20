@@ -5,8 +5,8 @@ import java.util.List;
  * Created by Torak28 on 20.12.2016.
  */
 public class Aplikacja {
-    private List<String> Flota = new ArrayList<String>();
-    private List<String> Loty = new ArrayList<String>();
+    private List<Samolot> Flota = new ArrayList<Samolot>();
+    private List<Lot> Loty = new ArrayList<Lot>();
 
     public boolean dodajSamolot(){
         return true;
