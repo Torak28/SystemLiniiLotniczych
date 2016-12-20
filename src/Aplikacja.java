@@ -1,12 +1,9 @@
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Torak28 on 20.12.2016.
  */
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class Aplikacja {
     public List<String>  Flota = new ArrayList<String>();
     public List<String>  Loty = new ArrayList<String>();
