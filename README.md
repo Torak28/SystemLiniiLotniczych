@@ -35,9 +35,9 @@ przygotowanych aplikacji,
 #Założenia, uproszcznia:
 Na etapie projektowym założyliśmy dwie kluczowe dla Naszego Diagramu Klas założenia:
 
-###Nasza aplikacja na potrzeby pokazania funkcjonalności nie będzie wymagała systemu bazodanowego. Mając jednak w głowie „rozwój” Naszego systemy zdecydowaliśmy się poszczególne „rekordy” bazy danych przechowywać w wektorach. Tym samym sposób korzystania z nich wymaga używania indeksów, podobnie jak w przypadku Bazy Danych, a oprócz tego zamiana tych pól na takie wykorzystujące zapytania SQL nie będzie bolesny w implementacji
+ * Nasza aplikacja na potrzeby pokazania funkcjonalności nie będzie wymagała systemu bazodanowego. Mając jednak w głowie „rozwój” Naszego systemy zdecydowaliśmy się poszczególne „rekordy” bazy danych przechowywać w wektorach. Tym samym sposób korzystania z nich wymaga używania indeksów, podobnie jak w przypadku Bazy Danych, a oprócz tego zamiana tych pól na takie wykorzystujące zapytania SQL nie będzie bolesny w implementacji
 
-###Każde pole w Naszej aplikacji ma funkcję set() i get(). Mamy świadomość że tworzenie tych funkcji dla każdego atrybuty klasy jest zbędne. Wydaje się nam jednak że na etapie projektowym doszukiwanie się tej zbędności może powodować niepotrzebne komplikacje. Zakładamy że prościej będzie w etapie implementacyjnym usunąć te funkcje set() i get() dla których nie znaleźliśmy zastosowania.
+ * Każde pole w Naszej aplikacji ma funkcję set() i get(). Mamy świadomość że tworzenie tych funkcji dla każdego atrybuty klasy jest zbędne. Wydaje się nam jednak że na etapie projektowym doszukiwanie się tej zbędności może powodować niepotrzebne komplikacje. Zakładamy że prościej będzie w etapie implementacyjnym usunąć te funkcje set() i get() dla których nie znaleźliśmy zastosowania.
 
 #Diagram Klas:
 
