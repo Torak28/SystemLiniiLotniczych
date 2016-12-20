@@ -55,7 +55,12 @@ public class Lot {
         return "Raport";
     }
     public boolean szukajBiletu(int NL){
-        return true;
+        int iloscBiletow = Bilety.size();
+        for (int i = 0; i < iloscBiletow; i++) {
+            if (Bilety.get(i).getNumerLotu() == NL) {
+                return true;
+            }
+        }
     }
     public Lot(int NL, int IK, int IZ, Samolot S){
         numerLotu = NL;

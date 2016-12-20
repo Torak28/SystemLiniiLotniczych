@@ -27,11 +27,19 @@ public class Aplikacja {
         int iloscSamolotow = Loty.size();
         for (int i = 0; i < iloscSamolotow; i++) {
             if (Loty.get(i).getNumerLotu() == NL) {
-                System.out.println("Jest");
                 return true;
             }
         }
         return false;
+    }
+    public int getLot(int NL){
+        int iloscSamolotow = Loty.size();
+        for (int i = 0; i < iloscSamolotow; i++) {
+            if (Loty.get(i).getNumerLotu() == NL) {
+                return i;
+            }
+        }
+        return 999;
     }
     public  Aplikacja(int a){
         //Dodanie 3 Samolotow o klasie odleglosci 1, ilosci miejsc rownej 100 i stanie true
@@ -51,14 +59,21 @@ public class Aplikacja {
         Loty.add(lot31);
     }
     //Tymczasowe wywołanie
-    public static void main(String[] args) {
+    public void main(String[] args) {
         /*TODO:
          * Zakup biletu
          * Rezerwacja Biletu
          * Dodanie Lotu
          */
         Aplikacja aplikacja = new Aplikacja(0);
+
         aplikacja.szukajLotu(12);
+        int indeksLotu = aplikacja.getLot(12);
+        if(!Loty.get(indeksLotu).szukajBiletu(12)){
+            //jesli ilosc miejsc sie zgadza ale to zaraz
+            Loty.get(indeksLotu).dodajBiletKupiony();
+        }
+
         System.out.println("Hello, World");
     }
 }

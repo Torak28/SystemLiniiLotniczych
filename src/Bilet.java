@@ -2,12 +2,16 @@
  * Created by Torak28 on 20.12.2016.
  */
 public class Bilet {
+    private int numerLotu;
     private int typ;
     private int miastoPoczatkowe;
     private int miastoKoncowe;
     private int data;
     private int godzina;
 
+    public int getNumerLotu(){
+        return numerLotu;
+    }
     public int getTyp(){
         return typ;
     }
