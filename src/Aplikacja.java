@@ -31,6 +31,11 @@ public class Aplikacja {
     }
     //Tymczasowe wywołanie
     public static void main(String[] args) {
+        /*TODO:
+         * Zakup biletu
+         * Rezerwacja Biletu
+         * Dodanie Lotu
+         */
         System.out.println("Hello, World");
     }
 }
