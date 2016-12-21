@@ -69,15 +69,20 @@ public class Aplikacja {
         int iloscLotow = Loty.size();
         int idx = 0;
         for (int i = 0; i < iloscLotow; i++) {
-            if (Loty.get(i).getNumerLotu() == NL) {
-                System.out.println("Lot o numerze: "+NL+" został znaleziony.");
-                idx = i;
-                break;
-            }
-            else if(i == iloscLotow - 1){
-                System.out.println("Lot o numerze: "+NL+" nie został znaleziony.");
+            if(Loty.size() != 0){
+                if (Loty.get(i).getNumerLotu() == NL) {
+                    System.out.println("Lot o numerze: "+NL+" został znaleziony.");
+                    idx = i;
+                    break;
+                }
+                else if(i == iloscLotow - 1){
+                    System.out.println("Lot o numerze: "+NL+" nie został znaleziony.");
+                    return null;
+                }
+            } else {
                 return null;
             }
+
         }
         return Loty.get(idx);
     }
@@ -99,12 +104,13 @@ public class Aplikacja {
         app.dodajLot(2, 0, 0);
         app.dodajLot(3, 0, 0);
 
-        app.szukajLotu(1).dodajBiletKupiony(2, 1, 2, 5, 5, 5);
-        app.szukajLotu(2).dodajBiletKupiony(2, 1, 2, 5, 3, 5);
+        app.szukajLotu(1);
+        //app.dodajBiletKupiony(2, 1, 2, 5, 5, 5);
+        /*app.szukajLotu(2).dodajBiletKupiony(2, 1, 2, 5, 3, 5);
         app.szukajLotu(3).dodajBiletKupiony(2, 1, 5, 6, 8, 5);
         app.szukajLotu(1).dodajBiletZarezerwowany(2, 1, 5, 5, 5, 5);
         app.szukajLotu(2).dodajBiletZarezerwowany(2, 1, 6, 5, 3, 5);
-        app.szukajLotu(3).dodajBiletZarezerwowany(2, 1, 9, 6, 8, 5);
+        app.szukajLotu(3).dodajBiletZarezerwowany(2, 1, 9, 6, 8, 5);*/
         app.szukajLotu(4);
 
         app.usunLot(1);
