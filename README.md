@@ -49,9 +49,101 @@ Przede wszystkim podczas projektowania Klas kierowaliśmy się pełną enkapsula
 
 ###Zakup Biletu
 ![alt text](http://i.imgur.com/7EC6ncJ.png "Logo Title Text 1")
+Wywołanie:
+```java
+app.szukajLotu(1).dodajBiletKupiony(2, 1, 2, 5, 5, 5);
+```
+.szukajLotu:
+```java
+public Lot szukajLotu(int NL){
+    int iloscLotow = Loty.size();
+    int idx = 0;
+    if (!Loty.isEmpty()) {
+        for (int i = 0; i < iloscLotow; i++) {
+            if (Loty.get(i).getNumerLotu() == NL) {
+                System.out.println("Lot o numerze: "+NL+" został znaleziony.");
+                idx = i;
+                break;
+            }
+            else if(i == iloscLotow - 1){
+                System.out.println("Lot o numerze: "+NL+" nie został znaleziony.");
+                return null;
+            }
+        }
+    }else{
+        return null;
+    }
+    return Loty.get(idx);
+}
+```
+.dodajBiletKupiony:
+```java
+public boolean dodajBiletKupiony(int nl, int typ, int mp, int mk, int d, int g){
+    if(iloscZarezerwowanych + iloscKupionych < samolot.getIloscMiejsc()) {
+        Bilet bilet = new Bilet(nl,typ,mp,mk,d,g);
+        Bilety.add(bilet);
+        System.out.println("Bilet kupionoy zostal dodany do tego lotu.\n");
+        iloscKupionych++;
+        return true;
+    }
+    else {
+        System.out.println("Brak miejsc w samolocie.\n");
+        return false;
+    }
+}
+```
 
 ###Rezerwazcja Biletu
 ![alt text](http://i.imgur.com/6yvKdRk.png "Logo Title Text 1")
+Wywołanie:
+```java
+app.szukajLotu(1).dodajBiletZarezerwowany(2, 1, 5, 5, 5, 5);
+```
+
+.dodajBiletZarezerwowany
+```java
+public boolean dodajBiletZarezerwowany(int nl, int typ, int mp, int mk, int d, int g){
+    if(iloscZarezerwowanych + iloscKupionych < samolot.getIloscMiejsc()) {
+        Bilet bilet = new Bilet(nl,typ,mp,mk,d,g);
+        Bilety.add(bilet);
+        System.out.println("Bilet zarezerwowany zostal dodany do tego lotu.\n");
+        iloscZarezerwowanych++;
+        return true;
+    }
+    else {
+        System.out.println("Brak miejsc w samolocie.\n");
+        return false;
+    }
+}
+```
 
 ###Dodanie Lotu
 ![alt text](http://i.imgur.com/IfRCQzu.png "Logo Title Text 1")
+Wywołanie:
+```java
+app.dodajLot(1, 0, 0);
+```
+
+.dodajLot:
+```java
+public void dodajLot(int NL, int IK, int IZ){
+    Lot lot = new Lot(NL, IK, IZ, wybierzSamolot());
+    Loty.add(lot);
+    for(int i = 0; i < Loty.size(); i++){
+        if (Loty.get(i).getNumerLotu() == NL){
+            System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
+                Loty.get(Loty.size() - 1).getNumerLotu()+"\n"+
+                "Przydzielony samolot: \nNazwa: "+
+                Loty.get(Loty.size() - 1).getSamolot().getNazwa()+"\n"+
+                "Klasa odleglosci: "+
+                Loty.get(Loty.size() - 1).getSamolot().getKlasaOdleglosci()+"\n"+
+                "Ilosc miejsc: "+
+                Loty.get(Loty.size() - 1).getSamolot().getIloscMiejsc()+"\n"+
+                "Stan samolotu: "+
+                Loty.get(Loty.size() - 1).getSamolot().getStan()+"\n");
+        } else {
+                System.out.println("Nie mozna dodac danego lotu. Dany Lot juz istnieje");
+        }
+    }
+}
+```

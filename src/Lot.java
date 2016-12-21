@@ -39,11 +39,12 @@ public class Lot {
             Bilety.add(bilet);
             System.out.println("Bilet kupionoy zostal dodany do tego lotu.\n");
             iloscKupionych++;
+            return true;
         }
-        else
+        else {
             System.out.println("Brak miejsc w samolocie.\n");
-
-        return true;
+            return false;
+        }
     }
     public boolean dodajBiletZarezerwowany(int nl, int typ, int mp, int mk, int d, int g){
         if(iloscZarezerwowanych + iloscKupionych < samolot.getIloscMiejsc())
@@ -52,10 +53,12 @@ public class Lot {
             Bilety.add(bilet);
             System.out.println("Bilet zarezerwowany zostal dodany do tego lotu.\n");
             iloscZarezerwowanych++;
+            return true;
         }
-        else
+        else {
             System.out.println("Brak miejsc w samolocie.\n");
-        return true;
+            return false;
+        }
     }
     public boolean usunBiletKupiony(){
         if(iloscKupionych != 0)
