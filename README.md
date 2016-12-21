@@ -150,3 +150,35 @@ public void dodajLot(int NL, int IK, int IZ){
     }
 }
 ```
+
+###Szukanie lotu
+![alt text](http://i.imgur.com/P79AGA8.png "Logo Title Text 1")
+
+Wywołanie:
+```java
+app.szukajLotu(1);
+```
+
+.szukajLotu:
+```java
+public Lot szukajLotu(int NL){
+    int iloscLotow = Loty.size();
+    int idx = 0;
+    if (!Loty.isEmpty()) {
+        for (int i = 0; i < iloscLotow; i++) {
+            if (Loty.get(i).getNumerLotu() == NL) {
+                System.out.println("Lot o numerze: "+NL+" został znaleziony.");
+                idx = i;
+                break;
+            }
+            else if(i == iloscLotow - 1){
+                System.out.println("Lot o numerze: "+NL+" nie został znaleziony.");
+                return null;
+            }
+        }
+    }else{
+        return null;
+    }
+    return Loty.get(idx);
+}
+```
