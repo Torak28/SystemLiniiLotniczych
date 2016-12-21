@@ -49,6 +49,7 @@ Przede wszystkim podczas projektowania Klas kierowaliśmy się pełną enkapsula
 
 ###Zakup Biletu
 ![alt text](http://i.imgur.com/7EC6ncJ.png "Logo Title Text 1")
+
 Wywołanie:
 ```java
 app.szukajLotu(1).dodajBiletKupiony(2, 1, 2, 5, 5, 5);
@@ -95,6 +96,7 @@ public boolean dodajBiletKupiony(int nl, int typ, int mp, int mk, int d, int g){
 
 ###Rezerwazcja Biletu
 ![alt text](http://i.imgur.com/6yvKdRk.png "Logo Title Text 1")
+
 Wywołanie:
 ```java
 app.szukajLotu(1).dodajBiletZarezerwowany(2, 1, 5, 5, 5, 5);
@@ -119,6 +121,7 @@ public boolean dodajBiletZarezerwowany(int nl, int typ, int mp, int mk, int d, i
 
 ###Dodanie Lotu
 ![alt text](http://i.imgur.com/IfRCQzu.png "Logo Title Text 1")
+
 Wywołanie:
 ```java
 app.dodajLot(1, 0, 0);
