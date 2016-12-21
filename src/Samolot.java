@@ -2,10 +2,14 @@
  * Created by Torak28 on 20.12.2016.
  */
 public class Samolot {
+    private String nazwa;
     private int klasaOdleglosci;
     private int iloscMiejsc;
     private boolean stan;
 
+    public String getNazwa(){
+        return nazwa;
+    }
     public int getKlasaOdleglosci(){
         return klasaOdleglosci;
     }
@@ -20,14 +24,18 @@ public class Samolot {
         iloscMiejsc = IM;
         return true;
     }
-    public boolean getStan(){
-        return stan;
+    public String getStan(){
+        if(stan == true)
+            return "sprawny";
+        else
+            return "niesprawny";
     }
     public boolean setStan(boolean S){
         stan = S;
         return true;
     }
-    public Samolot(int KO, int IM, boolean S){
+    public Samolot(String NAZWA, int KO, int IM, boolean S){
+        nazwa = NAZWA;
         klasaOdleglosci = KO;
         iloscMiejsc = IM;
         stan = S;

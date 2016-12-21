@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by Torak28 on 20.12.2016.
@@ -7,73 +8,105 @@ import java.util.List;
 public class Aplikacja {
     private List<Samolot> Flota = new ArrayList<Samolot>();
     private List<Lot> Loty = new ArrayList<Lot>();
+    private Random g = new Random();
 
-    public Lot getLot(int NL){
-        int iloscSamolotow = Loty.size();
-        for (int i = 0; i < iloscSamolotow; i++) {
-            if (Loty.get(i).getNumerLotu() == NL) {
-                return Loty.get(i);
+    public void dodajSamolot(String NAZWA, int KO, int IM, boolean S){
+        Samolot sam = new Samolot(NAZWA,KO,IM,S);
+        Flota.add(sam);
+        System.out.println("Samolot o nastepujacych parametrach zostal dodany: \nKlasa odleglosci: "+
+                Flota.get(Flota.size() - 1).getKlasaOdleglosci()+"\n"+
+                "Ilosc miejsc: "+
+                Flota.get(Flota.size() - 1).getIloscMiejsc()+"\n"+
+                "Stan samolotu: "+
+                Flota.get(Flota.size() - 1).getStan()+"\n");
+    }
+    public boolean  usunSamolot(String N){
+        for(int i = 0; i < Flota.size(); i++){
+            if(N == Flota.get(i).getNazwa()){
+                System.out.println("Samolot o nazwa: "+N+" został usuniety.\n");
+                Flota.remove(i);
+                break;
             }
         }
-        //defaltowy zwrot
-        return Loty.get(0);
-    }
-    public boolean dodajSamolot(){
         return true;
     }
-    public boolean usunSamolot(){
-        return true;
-    }
-    public boolean dodajLot(){
-        return true;
-    }
-    public boolean usunLot(){
-        return true;
-    }
-    public boolean szukajSamolotu(int ID){
-        return true;
-    }
-    public boolean szukajLotu(int NL){
-        int iloscSamolotow = Loty.size();
-        for (int i = 0; i < iloscSamolotow; i++) {
-            if (Loty.get(i).getNumerLotu() == NL) {
-                return true;
+    public void dodajLot(int NL, int IK, int IZ){
+        Lot lot = new Lot(NL, IK, IZ, wybierzSamolot());
+        for(int i = 0; i < Loty.size(); i++){
+            if (Loty.get(i).getNumerLotu() == NL){
+                Loty.add(lot);
+                System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
+                        Loty.get(Loty.size() - 1).getNumerLotu()+"\n"+
+                        "Przydzielony samolot: \nNazwa: "+
+                        Loty.get(Loty.size() - 1).getSamolot().getNazwa()+"\n"+
+                        "Klasa odleglosci: "+
+                        Loty.get(Loty.size() - 1).getSamolot().getKlasaOdleglosci()+"\n"+
+                        "Ilosc miejsc: "+
+                        Loty.get(Loty.size() - 1).getSamolot().getIloscMiejsc()+"\n"+
+                        "Stan samolotu: "+
+                        Loty.get(Loty.size() - 1).getSamolot().getStan()+"\n");
+            } else {
+                System.out.println("Nie mozna dodac danego lotu. Dany Lot juz istnieje");
             }
         }
-        return false;
+
     }
-    public  Aplikacja(int a){
-        //Dodanie 3 Samolotow o klasie odleglosci 1, ilosci miejsc rownej 100 i stanie true
-        Samolot samolotA = new Samolot(1, 100, true);
-        Flota.add(samolotA);
-        Samolot samolotB = new Samolot(1, 100, true);
-        Flota.add(samolotB);
-        Samolot samolotC = new Samolot(1, 100, true);
-        Flota.add(samolotC);
-        //Doadnie Lotow na trasach:
-        //Trasy 1-2, 2-3, 3-1
-        Lot lot12 = new Lot(12, 0, 0, Flota.get(0));
-        Lot lot23 = new Lot(23, 0, 0, Flota.get(1));
-        Lot lot31 = new Lot(31, 0, 0, Flota.get(2));
-        Loty.add(lot12);
-        Loty.add(lot23);
-        Loty.add(lot31);
+    public Samolot wybierzSamolot(){
+        int losowySamolot = g.nextInt(Flota.size());
+        return Flota.get(losowySamolot);
+    }
+    public void usunLot(int NL){
+        for(int i = 0; i < Loty.size(); i++){
+            if(NL == Loty.get(i).getNumerLotu()){
+                System.out.println("Lot o numerze: "+NL+" został usuniety.");
+                Loty.remove(i);
+                break;
+            }
+        }
+    }
+    // Szuka lotu o danym Numerze Lotu
+    public Lot szukajLotu(int NL){
+        int iloscLotow = Loty.size();
+        int idx = 0;
+        for (int i = 0; i < iloscLotow; i++) {
+            if (Loty.get(i).getNumerLotu() == NL) {
+                System.out.println("Lot o numerze: "+NL+" został znaleziony.");
+                idx = i;
+                break;
+            }
+            else if(i == iloscLotow - 1){
+                System.out.println("Lot o numerze: "+NL+" nie został znaleziony.");
+                return null;
+            }
+        }
+        return Loty.get(idx);
+    }
+
+    public  Aplikacja(){
+
     }
     //Tymczasowe wywołanie
     public static void main(String[] args) {
-        /*TODO:
-         * Zakup biletu
-         * Rezerwacja Biletu
-         * Dodanie Lotu
-         */
-        Aplikacja aplikacja = new Aplikacja(0);
+        Aplikacja app = new Aplikacja();
 
+        app.dodajSamolot("ErBas",1,400,true);
+        app.dodajSamolot("Tupolew",2,200,true);
+        app.dodajSamolot("Boeing",2,500,true);
 
-        //dodaje bilet do konkretnego lotu
-        aplikacja.szukajLotu(12);
-        Lot AktualnyLot = aplikacja.getLot(12);
-        AktualnyLot.dodajBiletKupiony();
-        AktualnyLot.dodajBiletZarezerwowany();
-        AktualnyLot.wypisz();
+        app.usunSamolot("Tupolew");
+
+        app.dodajLot(1, 0, 0);
+        app.dodajLot(2, 0, 0);
+        app.dodajLot(3, 0, 0);
+
+        app.szukajLotu(1).dodajBiletKupiony(2, 1, 2, 5, 5, 5);
+        app.szukajLotu(2).dodajBiletKupiony(2, 1, 2, 5, 3, 5);
+        app.szukajLotu(3).dodajBiletKupiony(2, 1, 5, 6, 8, 5);
+        app.szukajLotu(1).dodajBiletZarezerwowany(2, 1, 5, 5, 5, 5);
+        app.szukajLotu(2).dodajBiletZarezerwowany(2, 1, 6, 5, 3, 5);
+        app.szukajLotu(3).dodajBiletZarezerwowany(2, 1, 9, 6, 8, 5);
+        app.szukajLotu(4);
+
+        app.usunLot(1);
     }
 }
