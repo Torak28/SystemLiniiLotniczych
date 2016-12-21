@@ -27,7 +27,7 @@
       <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
+            <state relative-caret-position="277">
               <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -590,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482309773567</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="still not fix">
+      <created>1482310164940</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1482310164940</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -677,11 +684,20 @@
     <MESSAGE value="Dodanie Kupowania i Rezerwowania Biletu z funkcja wypisz do usuniecia" />
     <MESSAGE value="aktualizacja Diagramu klas" />
     <MESSAGE value="dodanie kodu Dominika ale wywala gdzies IndexOutOfBound&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie kodu Dominika ale wywala gdzies IndexOutOfBound&#10;" />
+    <MESSAGE value="still not fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="still not fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aplikacja.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1079,7 +1095,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
+        <state relative-caret-position="277">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
