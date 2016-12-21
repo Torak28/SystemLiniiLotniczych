@@ -32,9 +32,9 @@ public class Aplikacja {
     }
     public void dodajLot(int NL, int IK, int IZ){
         Lot lot = new Lot(NL, IK, IZ, wybierzSamolot());
+        Loty.add(lot);
         for(int i = 0; i < Loty.size(); i++){
             if (Loty.get(i).getNumerLotu() == NL){
-                Loty.add(lot);
                 System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
                         Loty.get(Loty.size() - 1).getNumerLotu()+"\n"+
                         "Przydzielony samolot: \nNazwa: "+
@@ -49,7 +49,6 @@ public class Aplikacja {
                 System.out.println("Nie mozna dodac danego lotu. Dany Lot juz istnieje");
             }
         }
-
     }
     public Samolot wybierzSamolot(){
         int losowySamolot = g.nextInt(Flota.size());
@@ -90,6 +89,7 @@ public class Aplikacja {
     public  Aplikacja(){
 
     }
+
     //Tymczasowe wywołanie
     public static void main(String[] args) {
         Aplikacja app = new Aplikacja();
