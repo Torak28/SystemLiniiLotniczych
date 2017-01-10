@@ -102,11 +102,10 @@ public class Lot {
     public Samolot getSamolot(){
         return samolot;
     }
-    public boolean setSamolot(Samolot S){
-        samolot = S;
-        return true;
-    }
-    // xd
+    public boolean setSamolot(Samolot S) {
+		samolot = S;
+		return true;
+	}
     public String wygenerujRaport(){
 		String out;
 		out = "Lot numer " + numerLotu +":\n\tMiasto początkowe: " + miastoPoczatkowe + "\n\tMiasto końcowe: " + miastoKoncowe + "\n\tData: " + data + "\n\tGodzina: " + godzina;
