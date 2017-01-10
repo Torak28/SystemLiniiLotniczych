@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * Created by Torak28 on 20.12.2016.
@@ -85,6 +86,22 @@ public class Aplikacja {
 
         return Loty.get(idx);
     }
+    public int formularzSzukajLot(){
+		int MP, MK, D, G;
+		Scanner in = new Scanner(System.in);
+		System.out.print("Jakie miasto poczatkowe? ");
+		MP = in.nextInt();
+		System.out.print("Jakie miasto koncowe? ");
+		MK = in.nextInt();
+		System.out.print("Jaki dzien? ");
+		D = in.nextInt();
+		System.out.print("Jaka godzina? ");
+		G = in.nextInt();
+		return MP+MK+G+D;
+	}
+	public int formularzSzukajLot(int MP, int MK, int D, int G){
+		return MP+MK+G+D;
+	}
 
     public  Aplikacja(){
 
@@ -107,13 +124,21 @@ public class Aplikacja {
         app.dodajLot(2,3,10,10); // 2 --> 3
         app.dodajLot(3,1,10,10); // 3 --> 1
 
-		//Szukanie Loty aktualnie to straszne cos co zupelnie nie dziala, naczy nie do konca wiadomo
-        app.szukajLotu(1).dodajBiletKupiony(2, 2, 5, 5, 5);
-        app.szukajLotu(2).dodajBiletKupiony(2, 2, 5, 3, 5);
-        app.szukajLotu(3).dodajBiletKupiony(2, 5, 6, 8, 5);
-        app.szukajLotu(1).dodajBiletZarezerwowany(2, 5, 5, 5, 5);
-        app.szukajLotu(2).dodajBiletZarezerwowany(2, 6, 5, 3, 5);
-        app.szukajLotu(3).dodajBiletZarezerwowany(2, 9, 6, 8, 5);
+		//Szukanie w oparciu o formularze
+		// DO SPRAWDZENIA
+		int szukany = app.formularzSzukajLot();
+        app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+		szukany = app.formularzSzukajLot();
+		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+		szukany = app.formularzSzukajLot();
+		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+
+		szukany = app.formularzSzukajLot(1,2,10,10);
+		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+		szukany = app.formularzSzukajLot(2,3,10,10);
+		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+		szukany = app.formularzSzukajLot(3,1,10,10);
+		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
         app.szukajLotu(4);
 
 		//To tez nie dziala xd :c
@@ -126,6 +151,7 @@ public class Aplikacja {
 		* dodac miejsce do biletu
 		* Samolot po locie musi miec sprwdzanie stanu
 		* Usuwanie Lotu i Samolotu nie ingeruje w tablice
+		* Wypisanie biletow, samolotow itp., itd.
 		*
 		 */
     }

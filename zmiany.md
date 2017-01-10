@@ -9,4 +9,6 @@
     private int godzina;
     //plus gettery i settery do kazdego
 ```
-* W takim razie przy tworzeniu nowego lotu interesuje Nas miasto poczatkowe,, miasto koncowe
+* W takim razie przy tworzeniu nowego lotu interesuje Nas miasto poczatkowe, miasto koncowe
+* Dodałem też Formularz dodawania Nowego Lotu, ktory pyta i generuje nowe NL na podstawie otrzymanych odpowiedzi
+* Bilet ma teraz miejsce ktore jest rowne jego indeksowi w tablicy biletow + 1

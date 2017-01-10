@@ -55,13 +55,14 @@ public class Bilet {
         godzina = G;
         return true;
     }
-    public Bilet(int NL, int T, int MP, int MK, int D, int G){
+    public Bilet(int NL, int T, int MP, int MK, int D, int G, int M){
         numerLotu = NL;
         typ = T;
         miastoKoncowe = MK;
         miastoPoczatkowe = MP;
         data = D;
         godzina = G;
+		miejsce = M;
     }
 }
 
