@@ -23,37 +23,32 @@ public class Bilet {
     public int getTyp(){
         return typ;
     }
-    public boolean setTyp(int T){
+    public void setTyp(int T){
         typ = T;
-        return true;
     }
     public int getMiastoPoczatkowe(){
         return miastoPoczatkowe;
     }
-    public boolean setMiastoPoczatkowe(int MP){
+    public void setMiastoPoczatkowe(int MP){
         miastoPoczatkowe = MP;
-        return true;
     }
     public int getMiastoKoncowe(){
         return miastoKoncowe;
     }
-    public boolean setMiastoKoncowe(int MK){
+    public void setMiastoKoncowe(int MK){
         miastoKoncowe = MK;
-        return true;
     }
     public int getData(){
         return data;
     }
-    public boolean setData(int D){
+    public void setData(int D){
         data = D;
-        return true;
     }
     public int getGodzina(){
         return godzina;
     }
-    public boolean setGodzina(int G){
+    public void setGodzina(int G){
         godzina = G;
-        return true;
     }
     public Bilet(int NL, int T, int MP, int MK, int D, int G, int M){
         numerLotu = NL;
