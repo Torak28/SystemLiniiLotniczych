@@ -117,6 +117,8 @@ public class Aplikacja {
     public static void main(String[] args) {
         Aplikacja app = new Aplikacja();
 
+		//PYTANIE O TRYB ODPALENIA
+
         //Nazwa, klasa odleglosci, ilosc miejsc, stan techniczny
         app.dodajSamolot("ErBas",1,400,true);
         app.dodajSamolot("Tupolew",2,200,true);
@@ -169,7 +171,7 @@ public class Aplikacja {
 		* Samolot po locie musi miec sprwdzanie stanu
 		* Usuwanie Lotu i Samolotu nie ingeruje w tablice
 		* Wypisanie wszystkich biletow, samolotow itp., itd.
-		*
+		* Tryb Odpalenia
 		 */
     }
 }
