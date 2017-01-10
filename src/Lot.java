@@ -108,7 +108,7 @@ public class Lot {
 		if(iloscKupionych != 0) {
 			iloscKupionych--;
 			for (int i = 0; i < Bilety.size(); i++) {
-				if (Bilety.get(i).getTyp() == 2){
+				if (Bilety.get(i).getTyp() == 0){
 					if (Bilety.get(i).getMiejsce() == M){
 						Bilety.remove(i);
 						System.out.println("Usunięto");
@@ -123,6 +123,22 @@ public class Lot {
 		}
         else System.out.println("Brak biletow zarezerwowanych");
     }
+    public String raportBilety(){
+		String out = "Bilety:\n";
+		out += "\tKupione(" + iloscKupionych + "):\n";
+		for (int i = 0; i < Bilety.size(); i++) {
+			if (Bilety.get(i).getTyp() == 1){
+				out += "\t\tMiejsce: " + Bilety.get(i).getMiejsce() + "\n";
+			}
+		}
+		out += "\tZarezerwowane(" + iloscZarezerwowanych + "):\n";
+		for (int i = 0; i < Bilety.size(); i++) {
+			if (Bilety.get(i).getTyp() == 0){
+				out += "\t\tMiejsce: " + Bilety.get(i).getMiejsce() + "\n";
+			}
+		}
+		return out;
+	}
     public Samolot getSamolot(){
         return samolot;
     }

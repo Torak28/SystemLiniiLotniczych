@@ -116,6 +116,7 @@ public class Aplikacja {
     //Tymczasowe wywołanie
     public static void main(String[] args) {
         Aplikacja app = new Aplikacja();
+		Scanner in = new Scanner(System.in);
 
 		//PYTANIE O TRYB ODPALENIA
 
@@ -160,13 +161,20 @@ public class Aplikacja {
 		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
 
 		//USUWANIE DO SPRAWDZENIA
-
+		szukany = app.formularzSzukajLot();
+		System.out.println(app.szukajLotu(szukany).raportBilety());
+		System.out.println("Jaki usunąć? ");
+		int miejsce = in.nextInt();
+		app.szukajLotu(szukany).usunBiletKupiony(miejsce);
+		miejsce = in.nextInt();
+		app.szukajLotu(szukany).usunBiletKupiony(miejsce);
 
 		//SPRAWDZENIE USUWANIA I POPRAWNOSCI GENEROWANIA RAPORTOW O WSZYSTKIM
 		System.out.println(app.raportWszystkieLoty());
 
 		//To tez nie dziala xd :c
 		app.usunLot(1);
+		System.out.println(app.raportWszystkieLoty());
 
 		/*
 		TODO:
