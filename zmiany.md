@@ -9,3 +9,4 @@
     private int godzina;
     //plus gettery i settery do kazdego
 ```
+* W takim razie przy tworzeniu nowego lotu interesuje Nas miasto poczatkowe,, miasto koncowe

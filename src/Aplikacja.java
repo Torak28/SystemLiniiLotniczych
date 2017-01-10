@@ -30,11 +30,11 @@ public class Aplikacja {
         }
         return true;
     }
-    public void dodajLot(int NL, int IK, int IZ){
-        Lot lot = new Lot(NL, IK, IZ, wybierzSamolot());
+    public void dodajLot(int MP, int MK, int D, int G){
+        Lot lot = new Lot(MP, MK, D, G, wybierzSamolot());
         Loty.add(lot);
         for(int i = 0; i < Loty.size(); i++){
-            if (Loty.get(i).getNumerLotu() == NL){
+            if (Loty.get(i).getNumerLotu() == lot.getNumerLotu()){
                 System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
                         Loty.get(Loty.size() - 1).getNumerLotu()+"\n"+
                         "Przydzielony samolot: \nNazwa: "+
@@ -94,24 +94,38 @@ public class Aplikacja {
     public static void main(String[] args) {
         Aplikacja app = new Aplikacja();
 
+        //Nazwa, klasa odleglosci, ilosc miejsc, stan techniczny
         app.dodajSamolot("ErBas",1,400,true);
         app.dodajSamolot("Tupolew",2,200,true);
         app.dodajSamolot("Boeing",2,500,true);
 
+		//Nazwa
         app.usunSamolot("Tupolew");
 
-        app.dodajLot(1, 0, 0);
-        app.dodajLot(2, 0, 0);
-        app.dodajLot(3, 0, 0);
+		//Miasto Poczatkowe, Miasto Koncowe, Dzien, Godzina
+        app.dodajLot(1,2,10,10); // 1 --> 2
+        app.dodajLot(2,3,10,10); // 2 --> 3
+        app.dodajLot(3,1,10,10); // 3 --> 1
 
-        app.szukajLotu(1).dodajBiletKupiony(2, 1, 2, 5, 5, 5);
-        app.szukajLotu(2).dodajBiletKupiony(2, 1, 2, 5, 3, 5);
-        app.szukajLotu(3).dodajBiletKupiony(2, 1, 5, 6, 8, 5);
-        app.szukajLotu(1).dodajBiletZarezerwowany(2, 1, 5, 5, 5, 5);
-        app.szukajLotu(2).dodajBiletZarezerwowany(2, 1, 6, 5, 3, 5);
-        app.szukajLotu(3).dodajBiletZarezerwowany(2, 1, 9, 6, 8, 5);
+		//Szukanie Loty aktualnie to straszne cos co zupelnie nie dziala, naczy nie do konca wiadomo
+        app.szukajLotu(1).dodajBiletKupiony(2, 2, 5, 5, 5);
+        app.szukajLotu(2).dodajBiletKupiony(2, 2, 5, 3, 5);
+        app.szukajLotu(3).dodajBiletKupiony(2, 5, 6, 8, 5);
+        app.szukajLotu(1).dodajBiletZarezerwowany(2, 5, 5, 5, 5);
+        app.szukajLotu(2).dodajBiletZarezerwowany(2, 6, 5, 3, 5);
+        app.szukajLotu(3).dodajBiletZarezerwowany(2, 9, 6, 8, 5);
         app.szukajLotu(4);
 
         app.usunLot(1);
+
+		/*
+		TODO:
+		* przejrzec samolot.java
+		* przejrzec bilet.java
+		* dodac miejsce do biletu
+		* Samolot po locie musi miec sprwdzanie stanu
+		* Usuwanie Lotu i Samolotu nie ingeruje w tablice
+		*
+		 */
     }
 }

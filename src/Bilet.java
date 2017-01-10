@@ -3,12 +3,20 @@
  */
 public class Bilet {
     private int numerLotu;
-    private int typ;
+    private int typ; //1 - kupiony 0 - zaarezerwowany
     private int miastoPoczatkowe;
     private int miastoKoncowe;
     private int data;
     private int godzina;
+    private int miejsce;
 
+
+    public int getMiejsce(){
+        return miejsce;
+    }
+    public void setMiejsce(int M){
+        miejsce = M;
+    }
     public int getNumerLotu(){
         return numerLotu;
     }

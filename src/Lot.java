@@ -18,56 +18,49 @@ public class Lot {
     public int getNumerLotu(){
         return numerLotu;
     }
-    public boolean setNumerLotu(int NL){
+    public void setNumerLotu(int NL){
         numerLotu = NL;
-        return true;
     }
     public int getIloscKupionych(){
         return iloscKupionych;
     }
-    public boolean setIloscKupionych(int IK){
+    public void setIloscKupionych(int IK){
         iloscKupionych = IK;
-        return true;
     }
     public int getIloscZarezerwowanych(){
         return iloscZarezerwowanych;
     }
-    public boolean setIloscZarezerwowanych(int IZ){
+    public void setIloscZarezerwowanych(int IZ){
         iloscZarezerwowanych = IZ;
-        return true;
     }
     public int getMiastoPoczatkowe(){
         return miastoPoczatkowe;
     }
-    public boolean setMiastoPoczatkowe(int MP){
+    public void setMiastoPoczatkowe(int MP){
         miastoPoczatkowe = MP;
-        return true;
     }
     public int getMiastoKoncowe(){
         return miastoKoncowe;
     }
-    public boolean setMiastoKoncowe(int MK){
+    public void setMiastoKoncowe(int MK){
         miastoKoncowe = MK;
-        return true;
     }
     public int getData(){
         return data;
     }
-    public boolean setData(int D){
+    public void setData(int D){
         data = D;
-        return true;
     }
     public int getGodzina(){
         return godzina;
     }
-    public boolean setGodzina(int G){
+    public void setGodzina(int G){
         godzina = G;
-        return true;
     }
-    public boolean dodajBiletKupiony(int nl, int typ, int mp, int mk, int d, int g){
+    public boolean dodajBiletKupiony(int nl, int mp, int mk, int d, int g){
         if(iloscZarezerwowanych + iloscKupionych < samolot.getIloscMiejsc())
         {
-            Bilet bilet = new Bilet(nl,typ,mp,mk,d,g);
+            Bilet bilet = new Bilet(nl,1,mp,mk,d,g);
             Bilety.add(bilet);
             System.out.println("Bilet kupionoy zostal dodany do tego lotu.\n");
             iloscKupionych++;
@@ -78,10 +71,10 @@ public class Lot {
             return false;
         }
     }
-    public boolean dodajBiletZarezerwowany(int nl, int typ, int mp, int mk, int d, int g){
+    public boolean dodajBiletZarezerwowany(int nl, int mp, int mk, int d, int g){
         if(iloscZarezerwowanych + iloscKupionych < samolot.getIloscMiejsc())
         {
-            Bilet bilet = new Bilet(nl,typ,mp,mk,d,g);
+            Bilet bilet = new Bilet(nl,0,mp,mk,d,g);
             Bilety.add(bilet);
             System.out.println("Bilet zarezerwowany zostal dodany do tego lotu.\n");
             iloscZarezerwowanych++;
@@ -121,10 +114,17 @@ public class Lot {
     public boolean szukajBiletu(int NL){
         return true;
     }
-    public Lot(int NL, int IK, int IZ, Samolot S){
-        numerLotu = NL;
-        iloscZarezerwowanych = IZ;
-        iloscKupionych = IK;
+	public int generujNumerLotu(){
+		return  miastoPoczatkowe + miastoKoncowe + data + godzina;
+	}
+    public Lot(int MP, int MK, int D, int G,Samolot S){
+        numerLotu = generujNumerLotu();
+		miastoPoczatkowe = MP;
+		miastoKoncowe = MK;
+		data = D;
+		godzina = G;
+        iloscZarezerwowanych = 0;
+        iloscKupionych = 0;
         samolot = S;
     }
 }
