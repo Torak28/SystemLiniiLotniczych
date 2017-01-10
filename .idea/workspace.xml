@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zmiany.md" afterPath="$PROJECT_DIR$/zmiany.md" />
     </list>
     <ignored path="IO.iws" />
@@ -901,7 +900,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484084882422</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Dodanie generowania raportu o Lotach">
+      <created>1484085341391</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1484085341391</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -972,7 +978,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dodanie Aplikacji&#10;" />
     <MESSAGE value="Dodanie Samolotu" />
     <MESSAGE value="Dodanie Lot" />
     <MESSAGE value="Uzupelnienie Lot" />
@@ -997,7 +1002,8 @@
     <MESSAGE value="dodanie formularza i miejsca do biletu" />
     <MESSAGE value="Dodanie Raportu&#10;" />
     <MESSAGE value="qfix&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="qfix&#10;" />
+    <MESSAGE value="Dodanie generowania raportu o Lotach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie generowania raportu o Lotach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

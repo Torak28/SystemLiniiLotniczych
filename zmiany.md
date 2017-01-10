@@ -13,4 +13,6 @@
 * Dodałem też Formularz dodawania Nowego Lotu, ktory pyta i generuje nowe NL na podstawie otrzymanych odpowiedzi
 * Bilet ma teraz miejsce ktore jest rowne jego indeksowi w tablicy biletow + 1
 * Zmieniłem też sposób szukania lotu. Wczesniej musieliśmy z palca wszystko wklepać, a teraz w oparciu o konkretny numer Lotu, przezsukuje wszystkie loty i jak znajde to z tego konkretnego Lotu pobieram dane do szukania. Troche masło maślane ale działa xd
+* Dodałem też generowanie raportu o wszystkich Lotach. 
+* Mam też pomysł żeby na poczatku pytac o tryb w jakim odpalic nasz program. Czy dla klienta, czy dla zarzadzajacego systemem
 
