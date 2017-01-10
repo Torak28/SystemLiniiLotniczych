@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="498">
+              <caret line="175" column="8" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3830#3831#0" expanded="true" />
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lot.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Lot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+            <state relative-caret-position="330">
+              <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#433#434#0" expanded="true" />
@@ -138,10 +138,8 @@
                 <element signature="e#1395#1396#0" expanded="true" />
                 <element signature="e#4012#4013#0" expanded="true" />
                 <element signature="e#4042#4043#0" expanded="true" />
-                <element signature="e#4588#4589#0" expanded="true" />
-                <element signature="e#4615#4616#0" expanded="true" />
-                <element signature="e#4647#4648#0" expanded="true" />
-                <element signature="e#4711#4712#0" expanded="true" />
+                <element signature="e#4752#4753#0" expanded="true" />
+                <element signature="e#4816#4817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,8 +213,8 @@
         <option value="$PROJECT_DIR$/src/Samolot.java" />
         <option value="$PROJECT_DIR$/src/Bilet.java" />
         <option value="$PROJECT_DIR$/zmiany.md" />
-        <option value="$PROJECT_DIR$/src/Lot.java" />
         <option value="$PROJECT_DIR$/src/Aplikacja.java" />
+        <option value="$PROJECT_DIR$/src/Lot.java" />
       </list>
     </option>
   </component>
@@ -980,7 +978,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484087635345</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Raport o Biletach">
+      <created>1484088152838</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1484088152838</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1051,7 +1056,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dodanie TODO&#10;" />
     <MESSAGE value="Dodanie szukania Biletu" />
     <MESSAGE value="Szukanie Biletu" />
     <MESSAGE value="Fix" />
@@ -1076,7 +1080,8 @@
     <MESSAGE value="Zmiana w sposoie usuwania biletow" />
     <MESSAGE value="wprowadzone zmiany&#10;" />
     <MESSAGE value="xd&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="xd&#10;" />
+    <MESSAGE value="Raport o Biletach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Raport o Biletach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1215,10 +1220,8 @@
             <element signature="e#1395#1396#0" expanded="true" />
             <element signature="e#4012#4013#0" expanded="true" />
             <element signature="e#4042#4043#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
-            <element signature="e#4615#4616#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
+            <element signature="e#4752#4753#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1349,10 +1352,8 @@
             <element signature="e#1395#1396#0" expanded="true" />
             <element signature="e#4012#4013#0" expanded="true" />
             <element signature="e#4042#4043#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
-            <element signature="e#4615#4616#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
+            <element signature="e#4752#4753#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1471,10 +1472,8 @@
             <element signature="e#1395#1396#0" expanded="true" />
             <element signature="e#4012#4013#0" expanded="true" />
             <element signature="e#4042#4043#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
-            <element signature="e#4615#4616#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
+            <element signature="e#4752#4753#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1593,10 +1592,8 @@
             <element signature="e#1395#1396#0" expanded="true" />
             <element signature="e#4012#4013#0" expanded="true" />
             <element signature="e#4042#4043#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
-            <element signature="e#4615#4616#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
+            <element signature="e#4752#4753#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1715,10 +1712,8 @@
             <element signature="e#1395#1396#0" expanded="true" />
             <element signature="e#4012#4013#0" expanded="true" />
             <element signature="e#4042#4043#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
-            <element signature="e#4615#4616#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
+            <element signature="e#4752#4753#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1837,10 +1832,8 @@
             <element signature="e#1395#1396#0" expanded="true" />
             <element signature="e#4012#4013#0" expanded="true" />
             <element signature="e#4042#4043#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
-            <element signature="e#4615#4616#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
+            <element signature="e#4752#4753#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1951,10 +1944,8 @@
             <element signature="e#1395#1396#0" expanded="true" />
             <element signature="e#4012#4013#0" expanded="true" />
             <element signature="e#4042#4043#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
-            <element signature="e#4615#4616#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
+            <element signature="e#4752#4753#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2112,10 +2103,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="175" column="8" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3830#3831#0" expanded="true" />
+            <element signature="e#3853#3854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+        <state relative-caret-position="330">
+          <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#433#434#0" expanded="true" />
@@ -2148,22 +2151,8 @@
             <element signature="e#1395#1396#0" expanded="true" />
             <element signature="e#4012#4013#0" expanded="true" />
             <element signature="e#4042#4043#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
-            <element signature="e#4615#4616#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3830#3831#0" expanded="true" />
-            <element signature="e#3853#3854#0" expanded="true" />
+            <element signature="e#4752#4753#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
           </folding>
         </state>
       </provider>

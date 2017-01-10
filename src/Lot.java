@@ -152,9 +152,14 @@ public class Lot {
 		out += "\n\tIlość Biletów: " + (iloscKupionych + iloscZarezerwowanych) + "\n\t\tKupione: " + iloscKupionych + "\n\t\tZarezerwowane: " + iloscZarezerwowanych;
         return out;
     }
-    // zmienic dane
-    public boolean szukajBiletu(int NL){
-        return true;
+    public boolean szukajBiletu(int M){
+		for (int i = 0; i < Bilety.size(); i++) {
+			if (Bilety.get(i).getMiejsce() == M)
+				return true;
+			else
+				return false;
+		}
+		return false;
     }
 	public int generujNumerLotu(){
 		return  miastoPoczatkowe + miastoKoncowe + data + godzina;
