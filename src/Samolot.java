@@ -16,16 +16,14 @@ public class Samolot {
     public int getKlasaOdleglosci(){
         return klasaOdleglosci;
     }
-    public boolean setKlasaOdleglosci(int KO){
+    public void setKlasaOdleglosci(int KO){
         klasaOdleglosci = KO;
-        return true;
     }
     public int getIloscMiejsc(){
         return iloscMiejsc;
     }
-    public boolean setIloscMiejsc(int IM){
+    public void setIloscMiejsc(int IM){
         iloscMiejsc = IM;
-        return true;
     }
     public String getStan(){
         if(stan == true)
@@ -33,9 +31,8 @@ public class Samolot {
         else
             return "niesprawny";
     }
-    public boolean setStan(boolean S){
+    public void setStan(boolean S){
         stan = S;
-        return true;
     }
     public Samolot(String NAZWA, int KO, int IM, boolean S){
         nazwa = NAZWA;
