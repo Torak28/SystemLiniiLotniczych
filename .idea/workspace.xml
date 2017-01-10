@@ -181,8 +181,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="59" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -965,7 +965,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484087546625</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="wprowadzone zmiany&#10;">
+      <created>1484087608418</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1484087608418</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1036,7 +1043,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="uzupelnienie Biletu" />
     <MESSAGE value="fix typo" />
     <MESSAGE value="Dodanie TODO&#10;" />
     <MESSAGE value="Dodanie szukania Biletu" />
@@ -1061,7 +1067,8 @@
     <MESSAGE value="Komentarze dla Pomocy" />
     <MESSAGE value="Dodanie zmian" />
     <MESSAGE value="Zmiana w sposoie usuwania biletow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zmiana w sposoie usuwania biletow" />
+    <MESSAGE value="wprowadzone zmiany&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="wprowadzone zmiany&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2145,8 +2152,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="59" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
             <folding />
           </first_editor>
           <second_editor />

@@ -1,4 +1,4 @@
-# Zmiany wprowadzone 10.01
+# Zmiany wprowadzone 10.01 i w sumie to 11.01 trochę też xd
 
 * Porzuciłem pomysł Numeru Lotu jako informacji o całym locie, w sensie że teraz to jest jakis randomowy numer a nie coś wynikajacego z danych lotu
 * W związku z tym dodałem do lotu:
