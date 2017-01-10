@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="Dodanie zmian">
+    <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lot.java" afterPath="$PROJECT_DIR$/src/Lot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zmiany.md" afterPath="$PROJECT_DIR$/zmiany.md" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
@@ -169,7 +168,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zmiany.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="zmiany.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zmiany.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -214,9 +213,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Samolot.java" />
         <option value="$PROJECT_DIR$/src/Bilet.java" />
-        <option value="$PROJECT_DIR$/zmiany.md" />
         <option value="$PROJECT_DIR$/src/Lot.java" />
         <option value="$PROJECT_DIR$/src/Aplikacja.java" />
+        <option value="$PROJECT_DIR$/zmiany.md" />
       </list>
     </option>
   </component>
@@ -959,7 +958,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484085575722</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Zmiana w sposoie usuwania biletow">
+      <created>1484087546625</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1484087546625</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1030,7 +1036,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dodanie pustego Biletu" />
     <MESSAGE value="uzupelnienie Biletu" />
     <MESSAGE value="fix typo" />
     <MESSAGE value="Dodanie TODO&#10;" />
@@ -1055,7 +1060,8 @@
     <MESSAGE value="Pozbyłem sie boolow przy setterach" />
     <MESSAGE value="Komentarze dla Pomocy" />
     <MESSAGE value="Dodanie zmian" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie zmian" />
+    <MESSAGE value="Zmiana w sposoie usuwania biletow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zmiana w sposoie usuwania biletow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2036,26 +2042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zmiany.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bilet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -2144,6 +2130,26 @@
             <element signature="e#3830#3831#0" expanded="true" />
             <element signature="e#3853#3854#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zmiany.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
