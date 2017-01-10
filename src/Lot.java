@@ -108,7 +108,10 @@ public class Lot {
     }
     // xd
     public String wygenerujRaport(){
-        return "Raport";
+		String out;
+		out = "Lot numer " + numerLotu +":\n\tMiasto początkowe: " + miastoPoczatkowe + "\n\tMiasto końcowe: " + miastoKoncowe + "\n\tData: " + data + "\n\tGodzina: " + godzina;
+		out += "\n\tIlość Biletów: " + (iloscKupionych + iloscZarezerwowanych) + "\n\t\tKupione: " + iloscKupionych + "\n\t\tZarezerwowane: " + iloscZarezerwowanych;
+        return out;
     }
     // zmienic dane
     public boolean szukajBiletu(int NL){

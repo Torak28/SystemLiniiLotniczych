@@ -141,6 +141,15 @@ public class Aplikacja {
 		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
         app.szukajLotu(4);
 
+		//SPRAWDZENIE DODANIA
+		szukany = app.formularzSzukajLot(1,2,10,10);
+		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
+		szukany = app.formularzSzukajLot(1,2,10,10);
+		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
+		szukany = app.formularzSzukajLot(1,2,10,10);
+		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
+
+
 		//To tez nie dziala xd :c
         app.usunLot(1);
 
@@ -151,7 +160,7 @@ public class Aplikacja {
 		* dodac miejsce do biletu
 		* Samolot po locie musi miec sprwdzanie stanu
 		* Usuwanie Lotu i Samolotu nie ingeruje w tablice
-		* Wypisanie biletow, samolotow itp., itd.
+		* Wypisanie wszystkich biletow, samolotow itp., itd.
 		*
 		 */
     }
