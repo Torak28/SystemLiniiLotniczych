@@ -7,9 +7,13 @@ import java.util.List;
 public class Lot {
     private List<Bilet> Bilety = new ArrayList<Bilet>();
     Samolot samolot;
-    private int numerLotu = 0;
+    private int numerLotu;
     private int iloscKupionych = 0;
     private int iloscZarezerwowanych = 0;
+    private int miastoPoczatkowe;
+    private int miastoKoncowe;
+    private int data;
+    private int godzina;
 
     public int getNumerLotu(){
         return numerLotu;
@@ -30,6 +34,34 @@ public class Lot {
     }
     public boolean setIloscZarezerwowanych(int IZ){
         iloscZarezerwowanych = IZ;
+        return true;
+    }
+    public int getMiastoPoczatkowe(){
+        return miastoPoczatkowe;
+    }
+    public boolean setMiastoPoczatkowe(int MP){
+        miastoPoczatkowe = MP;
+        return true;
+    }
+    public int getMiastoKoncowe(){
+        return miastoKoncowe;
+    }
+    public boolean setMiastoKoncowe(int MK){
+        miastoKoncowe = MK;
+        return true;
+    }
+    public int getData(){
+        return data;
+    }
+    public boolean setData(int D){
+        data = D;
+        return true;
+    }
+    public int getGodzina(){
+        return godzina;
+    }
+    public boolean setGodzina(int G){
+        godzina = G;
         return true;
     }
     public boolean dodajBiletKupiony(int nl, int typ, int mp, int mk, int d, int g){
@@ -60,12 +92,14 @@ public class Lot {
             return false;
         }
     }
+    //Nie usuwam z listy biletow
     public boolean usunBiletKupiony(){
         if(iloscKupionych != 0)
             iloscKupionych--;
         else System.out.println("Brak biletow kupionych");
         return true;
     }
+	//Nie usuwam z listy biletow
     public boolean usunBiletZarezerwowany(){
         if(iloscZarezerwowanych != 0)
             iloscZarezerwowanych--;
@@ -79,9 +113,11 @@ public class Lot {
         samolot = S;
         return true;
     }
+    // xd
     public String wygenerujRaport(){
         return "Raport";
     }
+    // zmienic dane
     public boolean szukajBiletu(int NL){
         return true;
     }

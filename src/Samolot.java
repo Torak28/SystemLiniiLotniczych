@@ -10,6 +10,9 @@ public class Samolot {
     public String getNazwa(){
         return nazwa;
     }
+    public void setNazwa(String N){
+        nazwa = N;
+    }
     public int getKlasaOdleglosci(){
         return klasaOdleglosci;
     }
