@@ -4,9 +4,6 @@
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Bilet.java" afterPath="$PROJECT_DIR$/src/Bilet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lot.java" afterPath="$PROJECT_DIR$/src/Lot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zmiany.md" afterPath="$PROJECT_DIR$/zmiany.md" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="109" column="100" selection-start-line="109" selection-start-column="100" selection-end-line="109" selection-end-column="100" />
+            <state relative-caret-position="378">
+              <caret line="118" column="33" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -868,7 +865,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484060256093</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="dodanie zmian i lekka zmiana pomyslu">
+      <created>1484063260200</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1484063260200</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1913,8 +1917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="109" column="100" selection-start-line="109" selection-start-column="100" selection-end-line="109" selection-end-column="100" />
+        <state relative-caret-position="378">
+          <caret line="118" column="33" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

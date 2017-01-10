@@ -116,6 +116,7 @@ public class Aplikacja {
         app.szukajLotu(3).dodajBiletZarezerwowany(2, 9, 6, 8, 5);
         app.szukajLotu(4);
 
+		//To tez nie dziala xd :c
         app.usunLot(1);
 
 		/*
