@@ -102,7 +102,13 @@ public class Aplikacja {
 	public int formularzSzukajLot(int MP, int MK, int D, int G){
 		return MP+MK+G+D;
 	}
-
+	public String raportWszystkieLoty(){
+		String out = "Raport o wszystkich " + Flota.size() + " lotach:\n";
+		for (int i = 0; i < Loty.size(); i++) {
+			out += Loty.get(i).wygenerujRaport() + "\n";
+		}
+		return out;
+	}
     public  Aplikacja(){
 
     }
@@ -149,9 +155,11 @@ public class Aplikacja {
 		szukany = app.formularzSzukajLot(1,2,10,10);
 		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
 
-
 		//To tez nie dziala xd :c
         app.usunLot(1);
+
+		System.out.println(app.raportWszystkieLoty());
+
 
 		/*
 		TODO:
