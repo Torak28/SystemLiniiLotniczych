@@ -85,19 +85,43 @@ public class Lot {
             return false;
         }
     }
-    //Nie usuwam z listy biletow
-    public boolean usunBiletKupiony(){
-        if(iloscKupionych != 0)
-            iloscKupionych--;
-        else System.out.println("Brak biletow kupionych");
-        return true;
+    public void usunBiletKupiony(int M){
+        if(iloscKupionych != 0) {
+			iloscKupionych--;
+			for (int i = 0; i < Bilety.size(); i++) {
+				if (Bilety.get(i).getTyp() == 1){
+					if (Bilety.get(i).getMiejsce() == M){
+						Bilety.remove(i);
+						System.out.println("Usunięto");
+					}else{
+						System.out.println("Nie ma takiego biletu");
+					}
+				}
+				else{
+					System.out.println("Nie ma takiego biletu");
+				}
+			}
+		}
+		else System.out.println("Brak biletow kupionych");
     }
-	//Nie usuwam z listy biletow
-    public boolean usunBiletZarezerwowany(){
-        if(iloscZarezerwowanych != 0)
-            iloscZarezerwowanych--;
+    public void usunBiletZarezerwowany(int M){
+		if(iloscKupionych != 0) {
+			iloscKupionych--;
+			for (int i = 0; i < Bilety.size(); i++) {
+				if (Bilety.get(i).getTyp() == 2){
+					if (Bilety.get(i).getMiejsce() == M){
+						Bilety.remove(i);
+						System.out.println("Usunięto");
+					}else{
+						System.out.println("Nie ma takiego biletu");
+					}
+				}
+				else{
+					System.out.println("Nie ma takiego biletu");
+				}
+			}
+		}
         else System.out.println("Brak biletow zarezerwowanych");
-        return true;
     }
     public Samolot getSamolot(){
         return samolot;

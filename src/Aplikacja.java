@@ -142,12 +142,14 @@ public class Aplikacja {
 		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
 
 		szukany = app.formularzSzukajLot(1,2,10,10);
-		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+		app.szukajLotu(szukany).dodajBiletZarezerwowany(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
 		szukany = app.formularzSzukajLot(2,3,10,10);
-		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+		app.szukajLotu(szukany).dodajBiletZarezerwowany(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
 		szukany = app.formularzSzukajLot(3,1,10,10);
-		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
-        app.szukajLotu(4);
+		app.szukajLotu(szukany).dodajBiletZarezerwowany(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+
+		//SPRAWDZNIE JAK NIE MA TAKIEGO LOTU
+		app.szukajLotu(4);
 
 		//SPRAWDZENIE DODANIA
 		szukany = app.formularzSzukajLot(1,2,10,10);
@@ -157,11 +159,14 @@ public class Aplikacja {
 		szukany = app.formularzSzukajLot(1,2,10,10);
 		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
 
-		//To tez nie dziala xd :c
-        app.usunLot(1);
+		//USUWANIE DO SPRAWDZENIA
 
+
+		//SPRAWDZENIE USUWANIA I POPRAWNOSCI GENEROWANIA RAPORTOW O WSZYSTKIM
 		System.out.println(app.raportWszystkieLoty());
 
+		//To tez nie dziala xd :c
+		app.usunLot(1);
 
 		/*
 		TODO:
