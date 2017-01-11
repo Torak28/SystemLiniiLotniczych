@@ -21,3 +21,5 @@
 * Zmieniłem troche dodawanie Lotu. Teraz sprawdzam czy mamy Samolot na ten Lot i czy taki lot już nie istnieje przypadkiem
 * Dodałem że Samolot może się zepsuć po wylocie(Pytam o to użytkownika)
 * Dodałem tez naprawianie Samoloty jeśli był zepsuty
+
+#Do Zrobienia zostało napisanie menu, zrobie to na zajeciach albo na nastepne. :>
