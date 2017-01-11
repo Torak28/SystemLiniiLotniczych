@@ -114,26 +114,24 @@ public class Aplikacja {
             }
         }
     }
-    // Szuka lotu o danym Numerze Lotu
+    // Szuka lotu o danym Numerze Lotu WAT
     public Lot szukajLotu(int NL){
-        int iloscLotow = Loty.size();
         int idx = 0;
         if (!Loty.isEmpty()) {
-            for (int i = 0; i < iloscLotow; i++) {
-                if (Loty.get(i).getNumerLotu() == NL) {
-                    System.out.println("Lot o numerze: "+NL+" został znaleziony.");
-                    idx = i;
-                    break;
-                }
-                else if(i == iloscLotow - 1){
-                    System.out.println("Lot o numerze: "+NL+" nie został znaleziony.");
-                    return null;
-                }
-            }
+			if (czyTakiLotJuzIstnieje(NL)){
+				for (int i = 0; i < Loty.size(); i++) {
+					if (Loty.get(i).getNumerLotu() == NL) {
+						idx = i;
+					}
+				}
+			}else {
+				System.out.println("Nie ma takiego lotu");
+				return null;
+			}
         }else{
+			System.out.println("Nie ma żadnych Lotów");
             return null;
         }
-
         return Loty.get(idx);
     }
     public int formularzSzukajLot(){
@@ -189,7 +187,7 @@ public class Aplikacja {
 		System.out.println(app.raportWszystkieLoty());
 
 		//Szukanie w oparciu o formularze
-		// DO SPRAWDZENIA
+		// DZIALA
 		System.out.println("Dodanie Biltu o parametrach:\n");
 		int szukany = app.formularzSzukajLot();
         app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
@@ -199,6 +197,7 @@ public class Aplikacja {
 		System.out.println("Dodanie Biltu o parametrach:\n");
 		szukany = app.formularzSzukajLot();
 		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+		System.out.println(app.raportWszystkieLoty());
 
 		szukany = app.formularzSzukajLot(1,2,10,10);
 		app.szukajLotu(szukany).dodajBiletZarezerwowany(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
@@ -206,28 +205,35 @@ public class Aplikacja {
 		app.szukajLotu(szukany).dodajBiletZarezerwowany(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
 		szukany = app.formularzSzukajLot(3,1,10,10);
 		app.szukajLotu(szukany).dodajBiletZarezerwowany(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+		System.out.println(app.raportWszystkieLoty());
 
 		//SPRAWDZNIE JAK NIE MA TAKIEGO LOTU
+		//DZIALA
 		app.szukajLotu(4);
 
 		//SPRAWDZENIE DODANIA
+		//DZIALA
+		System.out.println("Usuwanie Biltu o parametrach:\n");
 		szukany = app.formularzSzukajLot(1,2,10,10);
 		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
-		szukany = app.formularzSzukajLot(1,2,10,10);
+		szukany = app.formularzSzukajLot(2,3,10,10);
 		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
-		szukany = app.formularzSzukajLot(1,2,10,10);
+		szukany = app.formularzSzukajLot(3,1,10,10);
 		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
 
 		//USUWANIE DO SPRAWDZENIA
+		System.out.println("Raport Biletowy dla Lotu o parametrach:\n");
 		szukany = app.formularzSzukajLot();
 		System.out.println(app.szukajLotu(szukany).raportBilety());
-		System.out.println("Jaki usunąć? ");
+		System.out.println("Jaki usunąć?(Podaj miejsce) ");
 		int miejsce = in.nextInt();
 		app.szukajLotu(szukany).usunBiletKupiony(miejsce);
+		System.out.println("Jaki usunąć?(Podaj miejsce) ");
 		miejsce = in.nextInt();
 		app.szukajLotu(szukany).usunBiletZarezerwowany(miejsce);
 
 		//SPRAWDZENIE USUWANIA I POPRAWNOSCI GENEROWANIA RAPORTOW O WSZYSTKIM
+		//DZIALA
 		System.out.println(app.raportWszystkieLoty());
 
 		//To tez nie dziala xd :c
