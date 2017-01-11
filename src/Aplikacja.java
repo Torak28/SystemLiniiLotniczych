@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Torak28 on 20.12.2016.
@@ -157,6 +158,23 @@ public class Aplikacja {
 		}
 		return out;
 	}
+	public void wyslijLot(int NL){
+		Scanner in = new Scanner(System.in);
+		System.out.println("Lot " + szukajLotu(NL).getNumerLotu() + " został wysłany\n");
+		String out = ".";
+		for (int i = 0; i < 10; i++) {
+			out += ".";
+			System.out.print(out);
+		}
+		System.out.println("\nLot " + szukajLotu(NL).getNumerLotu() + " wrócił!W jakim jest stanie? (1 - sprawny, 2 - niesprawny) \n");
+		int odp = in.nextInt();
+		if (odp == 2){
+			szukajLotu(NL).getSamolot().setStan(false);
+		}
+	}
+	public void naprawSamolot(int NL){
+		szukajLotu(NL).getSamolot().setStan(true);
+	}
     public  Aplikacja(){
 
     }
@@ -222,6 +240,7 @@ public class Aplikacja {
 		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
 
 		//USUWANIE DO SPRAWDZENIA
+		//DZIALA
 		System.out.println("Raport Biletowy dla Lotu o parametrach:\n");
 		szukany = app.formularzSzukajLot();
 		System.out.println(app.szukajLotu(szukany).raportBilety());
@@ -243,6 +262,11 @@ public class Aplikacja {
 		app.usunLot(szukany);
 		System.out.println(app.raportWszystkieLoty());
 
+		//ZEPSUCIE I NAPRAWA
+		app.wyslijLot(25);
+		System.out.println(app.raportWszystkieLoty());
+		app.naprawSamolot(25);
+		System.out.println(app.raportWszystkieLoty());
 		/*
 		TODO:
 		* Samolot po locie musi miec sprwdzanie stanu

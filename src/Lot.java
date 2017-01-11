@@ -150,7 +150,7 @@ public class Lot {
 		String out;
 		out = "Lot numer " + numerLotu +":\n\tMiasto początkowe: " + miastoPoczatkowe + "\n\tMiasto końcowe: " + miastoKoncowe + "\n\tData: " + data + "\n\tGodzina: " + godzina;
 		out += "\n\tIlość Biletów: " + (iloscKupionych + iloscZarezerwowanych) + "\n\t\tKupione: " + iloscKupionych + "\n\t\tZarezerwowane: " + iloscZarezerwowanych +
-				"\n\tNazwa Samolotu: " + samolot.getNazwa() + "(" + samolot.getNumerLotu() + ")";
+				"\n\tNazwa Samolotu: " + samolot.getNazwa() + "(" + samolot.getNumerLotu() + ") - " + samolot.getStan();
         return out;
     }
     public boolean szukajBiletu(int M){
