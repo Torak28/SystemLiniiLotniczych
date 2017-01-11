@@ -48,7 +48,7 @@ Przede wszystkim podczas projektowania Klas kierowaliśmy się pełną enkapsula
 #Diagramy Sekwencji:
 
 ###Zakup Biletu
-![alt text](http://i.imgur.com/7EC6ncJ.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/dNMZx9p.png "Logo Title Text 1")
 
 Wywołanie:
 ```java
@@ -95,7 +95,7 @@ public boolean dodajBiletKupiony(int mp, int mk, int d, int g){
 ```
 
 ###Rezerwazcja Biletu
-![alt text](http://i.imgur.com/6yvKdRk.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/d6NyKV8.png "Logo Title Text 1")
 
 Wywołanie:
 ```java
@@ -157,6 +157,9 @@ public void dodajLot(int MP, int MK, int D, int G){
 		}
     }
 ```
+
+**Dygresja:** Zamieszczona na Diagramie Sekwencji Funkcja *szukajLot()* jest zastępiona w kodzie funkcją *czyTakiLotJuzIstnieje()*, która jest jej uproszczeniem,
+
 
 ###Szukanie lotu
 ![alt text](http://i.imgur.com/P79AGA8.png "Logo Title Text 1")
