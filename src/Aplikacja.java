@@ -151,7 +151,7 @@ public class Aplikacja {
 		return MP+MK+G+D;
 	}
 	public String raportWszystkieLoty(){
-		String out = "Raport o wszystkich " + Flota.size() + " lotach:\n";
+		String out = "Raport o wszystkich " + Loty.size() + " lotach:\n";
 		for (int i = 0; i < Loty.size(); i++) {
 			out += Loty.get(i).wygenerujRaport() + "\n";
 		}
@@ -236,7 +236,9 @@ public class Aplikacja {
 		//DZIALA
 		System.out.println(app.raportWszystkieLoty());
 
-		//To tez nie dziala xd :c
+		//USUWANIE LOTU
+		//DZIALA
+		System.out.println("Jaki Lot usunąć?");
 		szukany = app.formularzSzukajLot();
 		app.usunLot(szukany);
 		System.out.println(app.raportWszystkieLoty());
@@ -245,7 +247,6 @@ public class Aplikacja {
 		TODO:
 		* Samolot po locie musi miec sprwdzanie stanu
 		* Tryb Odpalenia
-		* Czy możesz dodać lot jak nie masz Samolotu? xd
 		 */
     }
 }

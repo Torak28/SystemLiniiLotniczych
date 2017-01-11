@@ -105,8 +105,8 @@ public class Lot {
 		else System.out.println("Brak biletow kupionych");
     }
     public void usunBiletZarezerwowany(int M){
-		if(iloscKupionych != 0) {
-			iloscKupionych--;
+		if(iloscZarezerwowanych != 0) {
+			iloscZarezerwowanych--;
 			for (int i = 0; i < Bilety.size(); i++) {
 				if (Bilety.get(i).getTyp() == 0){
 					if (Bilety.get(i).getMiejsce() == M){
