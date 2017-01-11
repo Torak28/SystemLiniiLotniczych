@@ -19,4 +19,5 @@
 * Zmieniłem tez usuwanie biletów. Po pierwsze teraz są faktycznie usuwane z Listy Bilety, a po druie to usuwam je po miejscu, które jest unikalnym numerem danego biletu
 * Musiałem zmienić to losowe przydzielanie Samolotu do Lotu, teraz przed dodaniem lotu pyta który samlot chcesz dodać
 * Zmieniłem troche dodawanie Lotu. Teraz sprawdzam czy mamy Samolot na ten Lot i czy taki lot już nie istnieje przypadkiem
-
+* Dodałem że Samolot może się zepsuć po wylocie(Pytam o to użytkownika)
+* Dodałem tez naprawianie Samoloty jeśli był zepsuty
