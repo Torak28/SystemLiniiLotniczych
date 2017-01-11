@@ -4,9 +4,6 @@
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lot.java" afterPath="$PROJECT_DIR$/src/Lot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Samolot.java" afterPath="$PROJECT_DIR$/src/Samolot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zmiany.md" afterPath="$PROJECT_DIR$/zmiany.md" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,15 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4143#4144#0" expanded="true" />
-                <element signature="e#4166#4167#0" expanded="true" />
+                <element signature="e#4627#4628#0" expanded="true" />
+                <element signature="e#4650#4651#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,7 +171,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zmiany.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zmiany.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zmiany.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -219,9 +216,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Bilet.java" />
         <option value="$PROJECT_DIR$/src/Lot.java" />
-        <option value="$PROJECT_DIR$/src/Aplikacja.java" />
         <option value="$PROJECT_DIR$/src/Samolot.java" />
         <option value="$PROJECT_DIR$/zmiany.md" />
+        <option value="$PROJECT_DIR$/src/Aplikacja.java" />
       </list>
     </option>
   </component>
@@ -999,7 +996,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484088335437</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Zmiana w dodawaniu Lotu">
+      <created>1484093748938</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1484093748938</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1013,7 +1017,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5796316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5796316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33260393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1022,7 +1026,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1070,7 +1074,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Szukanie Biletu" />
     <MESSAGE value="Fix" />
     <MESSAGE value="Dodanie Kupowania i Rezerwowania Biletu z funkcja wypisz do usuniecia" />
     <MESSAGE value="aktualizacja Diagramu klas" />
@@ -1095,7 +1098,8 @@
     <MESSAGE value="xd&#10;" />
     <MESSAGE value="Raport o Biletach" />
     <MESSAGE value="zmiana szukania biletu. Niestety jeszcze z niej nigdzie nie korzystam :c" />
-    <option name="LAST_COMMIT_MESSAGE" value="zmiana szukania biletu. Niestety jeszcze z niej nigdzie nie korzystam :c" />
+    <MESSAGE value="Zmiana w dodawaniu Lotu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zmiana w dodawaniu Lotu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1114,8 +1118,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1251,8 +1255,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1388,8 +1392,8 @@
           <caret line="86" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="86" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1513,8 +1517,8 @@
           <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1638,8 +1642,8 @@
           <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1763,8 +1767,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1888,8 +1892,8 @@
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2005,8 +2009,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2017,8 +2021,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2089,26 +2093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notatki.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="43" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -2148,18 +2132,6 @@
             <element signature="e#4042#4043#0" expanded="true" />
             <element signature="e#4752#4753#0" expanded="true" />
             <element signature="e#4816#4817#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2208,6 +2180,38 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notatki.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="43" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4627#4628#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -32,8 +32,11 @@ public class Aplikacja {
         return true;
     }
     public void dodajLot(int MP, int MK, int D, int G){
-
-        Lot lot = new Lot(MP, MK, D, G, wybierzSamolot());
+		Scanner in = new Scanner(System.in);
+		System.out.println(raportSamoloty());
+		int NL = in.nextInt();
+		int z = szukajSamolot(NL);
+        Lot lot = new Lot(MP, MK, D, G, Flota.get(z));
         Loty.add(lot);
         for(int i = 0; i < Loty.size(); i++){
             if (Loty.get(i).getNumerLotu() == lot.getNumerLotu()){
@@ -53,7 +56,16 @@ public class Aplikacja {
             }
         }
     }
-    //xd
+    public int szukajSamolot(int NL){
+		for (int i = 0; i < Flota.size(); i++) {
+			if (Flota.get(i).getNumerLotu() == NL){
+				return i;
+			}else {
+				return -1;
+			}
+		}
+		return 666;
+	}
     public Samolot wybierzSamolot(){
         int losowySamolot = g.nextInt(Flota.size());
         return Flota.get(losowySamolot);
@@ -61,7 +73,12 @@ public class Aplikacja {
     public String raportSamoloty(){
 		String out = "Wszystkie Samoloty:\n";
 		for (int i = 0; i < Flota.size(); i++) {
-			out += "\tNazwa: " + Flota.get(i).getNazwa() + "\n\tStan: " + Flota.get(i).getStan() + "\n\tIlość Miejsc: " + Flota.get(i).getIloscMiejsc() + "\n";
+			out += "\t" + (i+1) + ". Nazwa: " + Flota.get(i).getNazwa() + "\n\tStan: " + Flota.get(i).getStan() + "\n\tIlość Miejsc: " + Flota.get(i).getIloscMiejsc();
+			if (Flota.get(i).getNumerLotu() != 0){
+				out += "Obsługuje Lot: " + Flota.get(i).getNumerLotu() + "\n";
+			}else{
+				out += "Nie używany w żadnym locie\n";
+			}
 		}
 		return out;
 	}
