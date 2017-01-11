@@ -6,6 +6,7 @@ public class Samolot {
     private int klasaOdleglosci;
     private int iloscMiejsc;
     private boolean stan;
+	private int numerLotu;
 
     public String getNazwa(){
         return nazwa;
@@ -34,10 +35,17 @@ public class Samolot {
     public void setStan(boolean S){
         stan = S;
     }
+    public int getNumerLotu(){
+		return numerLotu;
+	}
+	public void setNumerLotu(int NL){
+		numerLotu = NL;
+	}
     public Samolot(String NAZWA, int KO, int IM, boolean S){
         nazwa = NAZWA;
         klasaOdleglosci = KO;
         iloscMiejsc = IM;
         stan = S;
+		numerLotu = 0;
     }
 }

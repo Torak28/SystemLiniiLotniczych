@@ -165,7 +165,7 @@ public class Lot {
 		return  miastoPoczatkowe + miastoKoncowe + data + godzina;
 	}
     public Lot(int MP, int MK, int D, int G,Samolot S){
-        numerLotu = generujNumerLotu();
+        numerLotu = MP + MK + D + G;
 		miastoPoczatkowe = MP;
 		miastoKoncowe = MK;
 		data = D;

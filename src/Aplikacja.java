@@ -32,6 +32,7 @@ public class Aplikacja {
         return true;
     }
     public void dodajLot(int MP, int MK, int D, int G){
+
         Lot lot = new Lot(MP, MK, D, G, wybierzSamolot());
         Loty.add(lot);
         for(int i = 0; i < Loty.size(); i++){
@@ -46,15 +47,24 @@ public class Aplikacja {
                         Loty.get(Loty.size() - 1).getSamolot().getIloscMiejsc()+"\n"+
                         "Stan samolotu: "+
                         Loty.get(Loty.size() - 1).getSamolot().getStan()+"\n");
+					break;
             } else {
                 System.out.println("Nie mozna dodac danego lotu. Dany Lot juz istnieje");
             }
         }
     }
+    //xd
     public Samolot wybierzSamolot(){
         int losowySamolot = g.nextInt(Flota.size());
         return Flota.get(losowySamolot);
     }
+    public String raportSamoloty(){
+		String out = "Wszystkie Samoloty:\n";
+		for (int i = 0; i < Flota.size(); i++) {
+			out += "\tNazwa: " + Flota.get(i).getNazwa() + "\n\tStan: " + Flota.get(i).getStan() + "\n\tIlość Miejsc: " + Flota.get(i).getIloscMiejsc() + "\n";
+		}
+		return out;
+	}
     public void usunLot(int NL){
         for(int i = 0; i < Loty.size(); i++){
             if(NL == Loty.get(i).getNumerLotu()){
@@ -121,11 +131,13 @@ public class Aplikacja {
 		//PYTANIE O TRYB ODPALENIA
 
         //Nazwa, klasa odleglosci, ilosc miejsc, stan techniczny
+		//DZIALA
         app.dodajSamolot("ErBas",1,400,true);
         app.dodajSamolot("Tupolew",2,200,true);
         app.dodajSamolot("Boeing",2,500,true);
 
 		//Nazwa
+		//DZIALA
         app.usunSamolot("Tupolew");
 
 		//Miasto Poczatkowe, Miasto Koncowe, Dzien, Godzina
@@ -173,17 +185,13 @@ public class Aplikacja {
 		System.out.println(app.raportWszystkieLoty());
 
 		//To tez nie dziala xd :c
-		app.usunLot(1);
+		szukany = app.formularzSzukajLot();
+		app.usunLot(szukany);
 		System.out.println(app.raportWszystkieLoty());
 
 		/*
 		TODO:
-		* przejrzec samolot.java
-		* przejrzec bilet.java
-		* dodac miejsce do biletu
 		* Samolot po locie musi miec sprwdzanie stanu
-		* Usuwanie Lotu i Samolotu nie ingeruje w tablice
-		* Wypisanie wszystkich biletow, samolotow itp., itd.
 		* Tryb Odpalenia
 		 */
     }

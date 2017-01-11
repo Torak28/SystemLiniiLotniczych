@@ -17,4 +17,5 @@
 * Mam też pomysł żeby na poczatku pytac o tryb w jakim odpalic nasz program. Czy dla klienta, czy dla zarzadzajacego systemem
 * Pozbyle sie wszystkich boolow w setterach. W sumie to malo Nas obchodzi czy setter sie wykona. W sensie wykona sie na sto procent, a nawet jesli nie to i tak nie mamy obslug bledow wiec w sumie nie ma roznicy. A bez boolow sie prościej piszę więć odp. była prosta :)
 * Zmieniłem tez usuwanie biletów. Po pierwsze teraz są faktycznie usuwane z Listy Bilety, a po druie to usuwam je po miejscu, które jest unikalnym numerem danego biletu
+* Musiałem zmienić to losowe przydzielanie Samolotu do Lotu, teraz przed dodaniem lotu pyta który samlot chcesz dodać
 
