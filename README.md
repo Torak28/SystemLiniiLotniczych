@@ -35,7 +35,7 @@ Na etapie projektowym założyliśmy dwie kluczowe dla Naszego Diagramu Klas za�
 
 #Diagram Klas:
 
-![alt text](http://i.imgur.com/ykXS2g4.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/v6eBz8o.png "Logo Title Text 1")
 
 ###Komentarz do Diagramu:
 Przede wszystkim podczas projektowania Klas kierowaliśmy się pełną enkapsulacją oraz maksymalnym ograniczeniem i uproszczeniem danych. Są jednak pewne elementy, które wymagają szczególnej uwagi oraz dodatkowego komentarza:
@@ -57,41 +57,41 @@ app.szukajLotu(1).dodajBiletKupiony(2, 1, 2, 5, 5, 5);
 .szukajLotu:
 ```java
 public Lot szukajLotu(int NL){
-    int iloscLotow = Loty.size();
-    int idx = 0;
-    if (!Loty.isEmpty()) {
-        for (int i = 0; i < iloscLotow; i++) {
-            if (Loty.get(i).getNumerLotu() == NL) {
-                System.out.println("Lot o numerze: "+NL+" został znaleziony.");
-                idx = i;
-                break;
-            }
-            else if(i == iloscLotow - 1){
-                System.out.println("Lot o numerze: "+NL+" nie został znaleziony.");
-                return null;
-            }
+        int idx = 0;
+        if (!Loty.isEmpty()) {
+			if (czyTakiLotJuzIstnieje(NL)){
+				for (int i = 0; i < Loty.size(); i++) {
+					if (Loty.get(i).getNumerLotu() == NL) {
+						idx = i;
+					}
+				}
+			}else {
+				System.out.println("Nie ma takiego lotu");
+				return null;
+			}
+        }else{
+			System.out.println("Nie ma żadnych Lotów");
+            return null;
         }
-    }else{
-        return null;
+        return Loty.get(idx);
     }
-    return Loty.get(idx);
-}
 ```
 .dodajBiletKupiony:
 ```java
-public boolean dodajBiletKupiony(int nl, int typ, int mp, int mk, int d, int g){
-    if(iloscZarezerwowanych + iloscKupionych < samolot.getIloscMiejsc()) {
-        Bilet bilet = new Bilet(nl,typ,mp,mk,d,g);
-        Bilety.add(bilet);
-        System.out.println("Bilet kupionoy zostal dodany do tego lotu.\n");
-        iloscKupionych++;
-        return true;
+public boolean dodajBiletKupiony(int mp, int mk, int d, int g){
+        if(iloscZarezerwowanych + iloscKupionych < samolot.getIloscMiejsc())
+        {
+            Bilet bilet = new Bilet(generujNumerLotu(),1,mp,mk,d,g,Bilety.size()+1);
+            Bilety.add(bilet);
+            System.out.println("Bilet kupionoy zostal dodany do tego lotu.\n");
+            iloscKupionych++;
+            return true;
+        }
+        else {
+            System.out.println("Brak miejsc w samolocie.\n");
+            return false;
+        }
     }
-    else {
-        System.out.println("Brak miejsc w samolocie.\n");
-        return false;
-    }
-}
 ```
 
 ###Rezerwazcja Biletu
@@ -104,19 +104,20 @@ app.szukajLotu(1).dodajBiletZarezerwowany(2, 1, 5, 5, 5, 5);
 
 .dodajBiletZarezerwowany
 ```java
-public boolean dodajBiletZarezerwowany(int nl, int typ, int mp, int mk, int d, int g){
-    if(iloscZarezerwowanych + iloscKupionych < samolot.getIloscMiejsc()) {
-        Bilet bilet = new Bilet(nl,typ,mp,mk,d,g);
-        Bilety.add(bilet);
-        System.out.println("Bilet zarezerwowany zostal dodany do tego lotu.\n");
-        iloscZarezerwowanych++;
-        return true;
+public boolean dodajBiletZarezerwowany(int mp, int mk, int d, int g){
+        if(iloscZarezerwowanych + iloscKupionych < samolot.getIloscMiejsc())
+        {
+            Bilet bilet = new Bilet(generujNumerLotu(),0,mp,mk,d,g,Bilety.size()+1);
+            Bilety.add(bilet);
+            System.out.println("Bilet zarezerwowany zostal dodany do tego lotu.\n");
+            iloscZarezerwowanych++;
+            return true;
+        }
+        else {
+            System.out.println("Brak miejsc w samolocie.\n");
+            return false;
+        }
     }
-    else {
-        System.out.println("Brak miejsc w samolocie.\n");
-        return false;
-    }
-}
 ```
 
 ###Dodanie Lotu
@@ -124,31 +125,37 @@ public boolean dodajBiletZarezerwowany(int nl, int typ, int mp, int mk, int d, i
 
 Wywołanie:
 ```java
-app.dodajLot(1, 0, 0);
+app.dodajLot(1,2,10,10);
 ```
 
 .dodajLot:
 ```java
-public void dodajLot(int NL, int IK, int IZ){
-    Lot lot = new Lot(NL, IK, IZ, wybierzSamolot());
-    Loty.add(lot);
-    for(int i = 0; i < Loty.size(); i++){
-        if (Loty.get(i).getNumerLotu() == NL){
-            System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
-                Loty.get(Loty.size() - 1).getNumerLotu()+"\n"+
-                "Przydzielony samolot: \nNazwa: "+
-                Loty.get(Loty.size() - 1).getSamolot().getNazwa()+"\n"+
-                "Klasa odleglosci: "+
-                Loty.get(Loty.size() - 1).getSamolot().getKlasaOdleglosci()+"\n"+
-                "Ilosc miejsc: "+
-                Loty.get(Loty.size() - 1).getSamolot().getIloscMiejsc()+"\n"+
-                "Stan samolotu: "+
-                Loty.get(Loty.size() - 1).getSamolot().getStan()+"\n");
-        } else {
-                System.out.println("Nie mozna dodac danego lotu. Dany Lot juz istnieje");
-        }
+public void dodajLot(int MP, int MK, int D, int G){
+		if (!czyTakiLotJuzIstnieje(MP+MK+D+G)){
+			Scanner in = new Scanner(System.in);
+			System.out.println(raportSamoloty());
+			System.out.println("Który Samolot chcesz dodać do tego lotu? ");
+			int index = in.nextInt()-1;
+			if (czyMamSamolotDoLotu()){
+				Lot lot = new Lot(MP, MK, D, G, Flota.get(index));
+				Loty.add(lot);
+				System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
+						Loty.get(Loty.size() - 1).getNumerLotu()+"\n"+
+						"Przydzielony samolot: \nNazwa: "+
+						Loty.get(Loty.size() - 1).getSamolot().getNazwa()+"\n"+
+						"Klasa odleglosci: "+
+						Loty.get(Loty.size() - 1).getSamolot().getKlasaOdleglosci()+"\n"+
+						"Ilosc miejsc: "+
+						Loty.get(Loty.size() - 1).getSamolot().getIloscMiejsc()+"\n"+
+						"Stan samolotu: "+
+						Loty.get(Loty.size() - 1).getSamolot().getStan()+"\n");
+			}else {
+				System.out.println("Nie mozna dodac danego lotu. Nie mamy dla niego Samolotu");
+			}
+		}else{
+			System.out.println("Nie mozna dodac danego lotu. Taki lot juz istnieje");
+		}
     }
-}
 ```
 
 ###Szukanie lotu
@@ -162,23 +169,22 @@ app.szukajLotu(1);
 .szukajLotu:
 ```java
 public Lot szukajLotu(int NL){
-    int iloscLotow = Loty.size();
-    int idx = 0;
-    if (!Loty.isEmpty()) {
-        for (int i = 0; i < iloscLotow; i++) {
-            if (Loty.get(i).getNumerLotu() == NL) {
-                System.out.println("Lot o numerze: "+NL+" został znaleziony.");
-                idx = i;
-                break;
-            }
-            else if(i == iloscLotow - 1){
-                System.out.println("Lot o numerze: "+NL+" nie został znaleziony.");
-                return null;
-            }
+        int idx = 0;
+        if (!Loty.isEmpty()) {
+			if (czyTakiLotJuzIstnieje(NL)){
+				for (int i = 0; i < Loty.size(); i++) {
+					if (Loty.get(i).getNumerLotu() == NL) {
+						idx = i;
+					}
+				}
+			}else {
+				System.out.println("Nie ma takiego lotu");
+				return null;
+			}
+        }else{
+			System.out.println("Nie ma żadnych Lotów");
+            return null;
         }
-    }else{
-        return null;
+        return Loty.get(idx);
     }
-    return Loty.get(idx);
-}
 ```
