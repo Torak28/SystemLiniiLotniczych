@@ -27,15 +27,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+            <state relative-caret-position="588">
+              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4581#4582#0" expanded="true" />
-                <element signature="e#4604#4605#0" expanded="true" />
+                <element signature="e#4955#4956#0" expanded="true" />
+                <element signature="e#4978#4979#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,7 +173,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zmiany.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zmiany.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zmiany.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -186,8 +186,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <first_editor relative-caret-position="374">
+                <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -219,8 +219,8 @@
         <option value="$PROJECT_DIR$/src/Bilet.java" />
         <option value="$PROJECT_DIR$/src/Samolot.java" />
         <option value="$PROJECT_DIR$/src/Lot.java" />
-        <option value="$PROJECT_DIR$/src/Aplikacja.java" />
         <option value="$PROJECT_DIR$/zmiany.md" />
+        <option value="$PROJECT_DIR$/src/Aplikacja.java" />
       </list>
     </option>
   </component>
@@ -1040,7 +1040,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484096185877</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="bug 4 bugbugbugbug">
+      <created>1484096200354</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1484096200354</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1112,7 +1119,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="naprawiłem OutOfBound ale wrócił NullPointer." />
     <MESSAGE value="fix&#10;" />
     <MESSAGE value="uaktualnienie REAMDME i boolowskich funkcji Lotu" />
     <MESSAGE value="fix identacja" />
@@ -1137,7 +1143,8 @@
     <MESSAGE value="bug 2" />
     <MESSAGE value="bug 3" />
     <MESSAGE value="zmiany" />
-    <option name="LAST_COMMIT_MESSAGE" value="zmiany" />
+    <MESSAGE value="bug 4 bugbugbugbug" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug 4 bugbugbugbug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1156,8 +1163,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4581#4582#0" expanded="true" />
-            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1292,8 +1299,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4581#4582#0" expanded="true" />
-            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1428,8 +1435,8 @@
           <caret line="86" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="86" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4581#4582#0" expanded="true" />
-            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1552,8 +1559,8 @@
           <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4581#4582#0" expanded="true" />
-            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1676,8 +1683,8 @@
           <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4581#4582#0" expanded="true" />
-            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1800,8 +1807,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4581#4582#0" expanded="true" />
-            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1924,8 +1931,8 @@
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4581#4582#0" expanded="true" />
-            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2040,8 +2047,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4581#4582#0" expanded="true" />
-            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2052,8 +2059,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4581#4582#0" expanded="true" />
-            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2213,18 +2220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4581#4582#0" expanded="true" />
-            <element signature="e#4604#4605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zmiany.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -2237,11 +2232,23 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
