@@ -31,30 +31,39 @@ public class Aplikacja {
         }
         return true;
     }
+    public boolean czyMamSamolotDoLotu(){
+		int tmp = 0;
+		for (int i = 0; i < Flota.size(); i++) {
+			if (Flota.get(i).getNumerLotu() != 0)
+				tmp += 1;
+		}
+		if (tmp == Flota.size())
+			return false;
+		else
+			return true;
+	}
     public void dodajLot(int MP, int MK, int D, int G){
 		Scanner in = new Scanner(System.in);
 		System.out.println(raportSamoloty());
 		System.out.println("Który Samolot chcesz dodać do tego lotu? ");
-		int NL = in.nextInt()-1;
-		Lot lot = new Lot(MP, MK, D, G, Flota.get(NL));
-		Loty.add(lot);
-		for(int i = 0; i < Loty.size(); i++){
-			if (Loty.get(i).getNumerLotu() == lot.getNumerLotu()){
-				System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
-						Loty.get(Loty.size() - 1).getNumerLotu()+"\n"+
-						"Przydzielony samolot: \nNazwa: "+
-						Loty.get(Loty.size() - 1).getSamolot().getNazwa()+"\n"+
-						"Klasa odleglosci: "+
-						Loty.get(Loty.size() - 1).getSamolot().getKlasaOdleglosci()+"\n"+
-						"Ilosc miejsc: "+
-						Loty.get(Loty.size() - 1).getSamolot().getIloscMiejsc()+"\n"+
-						"Stan samolotu: "+
-						Loty.get(Loty.size() - 1).getSamolot().getStan()+"\n");
-				break;
-			} else {
-				System.out.println("Nie mozna dodac danego lotu. Dany Lot juz istnieje");
-			}
+		int index = in.nextInt()-1;
+		if (czyMamSamolotDoLotu()){
+			Lot lot = new Lot(MP, MK, D, G, Flota.get(index));
+			Loty.add(lot);
+			System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
+					Loty.get(Loty.size() - 1).getNumerLotu()+"\n"+
+					"Przydzielony samolot: \nNazwa: "+
+					Loty.get(Loty.size() - 1).getSamolot().getNazwa()+"\n"+
+					"Klasa odleglosci: "+
+					Loty.get(Loty.size() - 1).getSamolot().getKlasaOdleglosci()+"\n"+
+					"Ilosc miejsc: "+
+					Loty.get(Loty.size() - 1).getSamolot().getIloscMiejsc()+"\n"+
+					"Stan samolotu: "+
+					Loty.get(Loty.size() - 1).getSamolot().getStan()+"\n");
+		}else {
+			System.out.println("Nie mozna dodac danego lotu. Nie mamy dla niego Samolotu");
 		}
+
     }
     public int szukajSamolot(int NL){
 		for (int i = 0; i < Flota.size(); i++) {

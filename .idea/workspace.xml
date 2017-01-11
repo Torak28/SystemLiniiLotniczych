@@ -4,7 +4,6 @@
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zmiany.md" afterPath="$PROJECT_DIR$/zmiany.md" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1034,7 +1033,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484095740096</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="zmiany">
+      <created>1484096185877</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1484096185877</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1106,7 +1112,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="still not fix" />
     <MESSAGE value="naprawiłem OutOfBound ale wrócił NullPointer." />
     <MESSAGE value="fix&#10;" />
     <MESSAGE value="uaktualnienie REAMDME i boolowskich funkcji Lotu" />
@@ -1131,7 +1136,8 @@
     <MESSAGE value="bug 1&#10;" />
     <MESSAGE value="bug 2" />
     <MESSAGE value="bug 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug 3" />
+    <MESSAGE value="zmiany" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmiany" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
