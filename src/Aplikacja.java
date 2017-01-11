@@ -182,6 +182,7 @@ public class Aplikacja {
         app.usunSamolot("Tupolew");
 
 		//Miasto Poczatkowe, Miasto Koncowe, Dzien, Godzina
+		//DZIALA
         app.dodajLot(1,2,10,10); // 1 --> 2
         app.dodajLot(2,3,10,10); // 2 --> 3
         app.dodajLot(3,1,10,10); // 3 --> 1
@@ -189,10 +190,13 @@ public class Aplikacja {
 
 		//Szukanie w oparciu o formularze
 		// DO SPRAWDZENIA
+		System.out.println("Dodanie Biltu o parametrach:\n");
 		int szukany = app.formularzSzukajLot();
         app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+		System.out.println("Dodanie Biltu o parametrach:\n");
 		szukany = app.formularzSzukajLot();
 		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
+		System.out.println("Dodanie Biltu o parametrach:\n");
 		szukany = app.formularzSzukajLot();
 		app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
 
@@ -221,7 +225,7 @@ public class Aplikacja {
 		int miejsce = in.nextInt();
 		app.szukajLotu(szukany).usunBiletKupiony(miejsce);
 		miejsce = in.nextInt();
-		app.szukajLotu(szukany).usunBiletKupiony(miejsce);
+		app.szukajLotu(szukany).usunBiletZarezerwowany(miejsce);
 
 		//SPRAWDZENIE USUWANIA I POPRAWNOSCI GENEROWANIA RAPORTOW O WSZYSTKIM
 		System.out.println(app.raportWszystkieLoty());
