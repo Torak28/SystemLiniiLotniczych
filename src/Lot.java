@@ -142,9 +142,8 @@ public class Lot {
     public Samolot getSamolot(){
         return samolot;
     }
-    public boolean setSamolot(Samolot S) {
+    public void setSamolot(Samolot S) {
 		samolot = S;
-		return true;
 	}
     public String wygenerujRaport(){
 		String out;

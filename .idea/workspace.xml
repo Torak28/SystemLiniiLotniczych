@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/UML.png" afterPath="$PROJECT_DIR$/img/UML.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lot.java" afterPath="$PROJECT_DIR$/src/Lot.java" />
@@ -739,13 +738,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00005" summary="Uzupelnienie Lot">
-      <created>1482243572438</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1482243572438</updated>
-    </task>
     <task id="LOCAL-00006" summary="Poprawa List">
       <created>1482243809151</created>
       <option name="number" value="00006" />
@@ -1082,7 +1074,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484100100068</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Nowy UML">
+      <created>1484102525472</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1484102525472</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1154,7 +1153,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="qfix&#10;" />
     <MESSAGE value="Dodanie generowania raportu o Lotach" />
     <MESSAGE value="Nowy pomysł!" />
     <MESSAGE value="Pozbyłem sie boolow przy setterach" />
@@ -1179,7 +1177,8 @@
     <MESSAGE value="Ostatnie zmiany!" />
     <MESSAGE value="Wszystkie testy przeszlismy pomyslnie! :)" />
     <MESSAGE value="Ostatnie dodatki" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ostatnie dodatki" />
+    <MESSAGE value="Nowy UML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nowy UML" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
