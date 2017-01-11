@@ -162,6 +162,7 @@ public class Aplikacja {
         app.dodajLot(1,2,10,10); // 1 --> 2
         app.dodajLot(2,3,10,10); // 2 --> 3
         app.dodajLot(3,1,10,10); // 3 --> 1
+		System.out.println(app.raportWszystkieLoty());
 
 		//Szukanie w oparciu o formularze
 		// DO SPRAWDZENIA
@@ -211,6 +212,7 @@ public class Aplikacja {
 		TODO:
 		* Samolot po locie musi miec sprwdzanie stanu
 		* Tryb Odpalenia
+		* Czy możesz dodać lot jak nie masz Samolotu? xd
 		 */
     }
 }
