@@ -173,5 +173,6 @@ public class Lot {
         iloscZarezerwowanych = 0;
         iloscKupionych = 0;
         samolot = S;
+		samolot.setNumerLotu(numerLotu);
     }
 }
