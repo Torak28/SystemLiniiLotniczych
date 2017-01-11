@@ -36,31 +36,25 @@ public class Aplikacja {
 		System.out.println(raportSamoloty());
 		System.out.println("Który Samolot chcesz dodać do tego lotu? ");
 		int NL = in.nextInt()-1;
-		int z = szukajSamolot(NL);
-		if (z != -1){
-			Lot lot = new Lot(MP, MK, D, G, Flota.get(z));
-			Loty.add(lot);
-			for(int i = 0; i < Loty.size(); i++){
-				if (Loty.get(i).getNumerLotu() == lot.getNumerLotu()){
-					System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
-							Loty.get(Loty.size() - 1).getNumerLotu()+"\n"+
-							"Przydzielony samolot: \nNazwa: "+
-							Loty.get(Loty.size() - 1).getSamolot().getNazwa()+"\n"+
-							"Klasa odleglosci: "+
-							Loty.get(Loty.size() - 1).getSamolot().getKlasaOdleglosci()+"\n"+
-							"Ilosc miejsc: "+
-							Loty.get(Loty.size() - 1).getSamolot().getIloscMiejsc()+"\n"+
-							"Stan samolotu: "+
-							Loty.get(Loty.size() - 1).getSamolot().getStan()+"\n");
-					break;
-				} else {
-					System.out.println("Nie mozna dodac danego lotu. Dany Lot juz istnieje");
-				}
+		Lot lot = new Lot(MP, MK, D, G, Flota.get(NL));
+		Loty.add(lot);
+		for(int i = 0; i < Loty.size(); i++){
+			if (Loty.get(i).getNumerLotu() == lot.getNumerLotu()){
+				System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
+						Loty.get(Loty.size() - 1).getNumerLotu()+"\n"+
+						"Przydzielony samolot: \nNazwa: "+
+						Loty.get(Loty.size() - 1).getSamolot().getNazwa()+"\n"+
+						"Klasa odleglosci: "+
+						Loty.get(Loty.size() - 1).getSamolot().getKlasaOdleglosci()+"\n"+
+						"Ilosc miejsc: "+
+						Loty.get(Loty.size() - 1).getSamolot().getIloscMiejsc()+"\n"+
+						"Stan samolotu: "+
+						Loty.get(Loty.size() - 1).getSamolot().getStan()+"\n");
+				break;
+			} else {
+				System.out.println("Nie mozna dodac danego lotu. Dany Lot juz istnieje");
 			}
-		}else{
-			System.out.println("Nie istnieje taki Samolot");
 		}
-
     }
     public int szukajSamolot(int NL){
 		for (int i = 0; i < Flota.size(); i++) {
