@@ -6,7 +6,7 @@ Przygotowali
 
 #Diagram Przypadków Użycia:
 
-![alt text](http://i.imgur.com/OY9q05y.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/fGRJDJq.png "Logo Title Text 1")
 
 
 #Wymagania Funkcjonalne i niefunkcjonalne:
@@ -35,7 +35,7 @@ Na etapie projektowym założyliśmy dwie kluczowe dla Naszego Diagramu Klas za�
 
 #Diagram Klas:
 
-![alt text](http://i.imgur.com/v6eBz8o.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/Lo4Nc3J.png "Logo Title Text 1")
 
 ###Komentarz do Diagramu:
 Przede wszystkim podczas projektowania Klas kierowaliśmy się pełną enkapsulacją oraz maksymalnym ograniczeniem i uproszczeniem danych. Są jednak pewne elementy, które wymagają szczególnej uwagi oraz dodatkowego komentarza:
@@ -48,7 +48,7 @@ Przede wszystkim podczas projektowania Klas kierowaliśmy się pełną enkapsula
 #Diagramy Sekwencji:
 
 ###Zakup Biletu
-![alt text](http://i.imgur.com/dNMZx9p.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/QdbgRY4.png "Logo Title Text 1")
 
 Wywołanie:
 ```java
@@ -95,7 +95,7 @@ public boolean dodajBiletKupiony(int mp, int mk, int d, int g){
 ```
 
 ###Rezerwazcja Biletu
-![alt text](http://i.imgur.com/d6NyKV8.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/ZzT1Gsf.png "Logo Title Text 1")
 
 Wywołanie:
 ```java
@@ -121,7 +121,7 @@ public boolean dodajBiletZarezerwowany(int mp, int mk, int d, int g){
 ```
 
 ###Dodanie Lotu
-![alt text](http://i.imgur.com/IfRCQzu.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/hVm0jqv.png "Logo Title Text 1")
 
 Wywołanie:
 ```java
@@ -162,7 +162,7 @@ public void dodajLot(int MP, int MK, int D, int G){
 
 
 ###Szukanie lotu
-![alt text](http://i.imgur.com/P79AGA8.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/lRpgFHh.png "Logo Title Text 1")
 
 Wywołanie:
 ```java

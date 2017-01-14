@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Proces biznesowy rezerwacji biletu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Proces biznesowy utworzenia nowego lotu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Scenariusz rezerwacji biletu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Scenariusz utworzenia nowego lotu.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Rezerwacja Biletu.PNG" afterPath="$PROJECT_DIR$/img/Rezerwacja Biletu.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Szukanie Lotu.png" afterPath="$PROJECT_DIR$/img/Szukanie Lotu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/UML.png" afterPath="$PROJECT_DIR$/img/UML.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Utworzenie Lotu.PNG" afterPath="$PROJECT_DIR$/img/Utworzenie Lotu.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Zakup Biletu.PNG" afterPath="$PROJECT_DIR$/img/Zakup Biletu.PNG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1649">
-                <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+              <first_editor relative-caret-position="170">
+                <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -215,8 +207,8 @@
         <option value="$PROJECT_DIR$/src/Samolot.java" />
         <option value="$PROJECT_DIR$/zmiany.md" />
         <option value="$PROJECT_DIR$/src/Lot.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Aplikacja.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -707,13 +699,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00010" summary="Dodanie TODO&#10;">
-      <created>1482250730636</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1482250730636</updated>
-    </task>
     <task id="LOCAL-00011" summary="Dodanie szukania Biletu">
       <created>1482252512261</created>
       <option name="number" value="00011" />
@@ -1050,7 +1035,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484405910157</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Dodanie img">
+      <created>1484407711081</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1484407711082</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1122,7 +1114,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dodanie zmian" />
     <MESSAGE value="Zmiana w sposoie usuwania biletow" />
     <MESSAGE value="wprowadzone zmiany&#10;" />
     <MESSAGE value="xd&#10;" />
@@ -1147,7 +1138,8 @@
     <MESSAGE value="Zmiana Sprawozdania" />
     <MESSAGE value="Poprawienie Sprawozdania" />
     <MESSAGE value="Do zrobienia" />
-    <option name="LAST_COMMIT_MESSAGE" value="Do zrobienia" />
+    <MESSAGE value="Dodanie img" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie img" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2104,8 +2096,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1649">
-            <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+          <first_editor relative-caret-position="170">
+            <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
