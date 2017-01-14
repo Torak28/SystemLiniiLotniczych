@@ -55,11 +55,11 @@ public class Aplikacja {
 	}
     public void dodajLot(int MP, int MK, int D, int G){
 		if (!czyTakiLotJuzIstnieje(MP+MK+D+G)){
-			Scanner in = new Scanner(System.in);
-			System.out.println(raportSamoloty());
-			System.out.println("Który Samolot chcesz dodać do tego lotu? ");
-			int index = in.nextInt()-1;
 			if (czyMamSamolotDoLotu()){
+				Scanner in = new Scanner(System.in);
+				System.out.println(raportSamoloty());
+				System.out.println("Który Samolot chcesz dodać do tego lotu? ");
+				int index = in.nextInt()-1;
 				Lot lot = new Lot(MP, MK, D, G, Flota.get(index));
 				Loty.add(lot);
 				System.out.println("Lot o nastepujacych parametrach zostal dodany: \nNumer lotu: "+
@@ -268,8 +268,9 @@ public class Aplikacja {
 		System.out.println(app.raportWszystkieLoty());
 		/*
 		TODO:
-		* Samolot po locie musi miec sprwdzanie stanu
+		* Usuwanie biletow dziala ale ruzca niepotrzebne Strigi
 		* Tryb Odpalenia
+		* Menu
 		 */
     }
 }
