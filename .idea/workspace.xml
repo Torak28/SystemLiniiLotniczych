@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/SzukanieLotu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +33,7 @@
             <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
-                  <caret line="215" column="17" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
+                  <caret line="218" column="22" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#354#355#0" expanded="true" />
@@ -174,8 +174,8 @@
           <file leaf-file-name="DodanieSamolotu.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/DodanieSamolotu.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -194,8 +194,8 @@
           <file leaf-file-name="DodanieLotu.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/DodanieLotu.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+                <state relative-caret-position="132">
+                  <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -203,11 +203,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UsuwanieLotu.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="UsuwanieLotu.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/UsuwanieLotu.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-21">
-                  <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="45" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="45" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SzukanieLotu.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/SzukanieLotu.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -249,6 +261,7 @@
         <option value="$PROJECT_DIR$/test/DodanieLotu.java" />
         <option value="$PROJECT_DIR$/test/UsuwanieLotu.java" />
         <option value="$PROJECT_DIR$/src/Aplikacja.java" />
+        <option value="$PROJECT_DIR$/test/SzukanieLotu.java" />
       </list>
     </option>
   </component>
@@ -373,22 +386,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UsuwanieLotu">
-    <configuration default="false" name="Aplikacja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Aplikacja" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IO" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SzukanieLotu">
     <configuration default="false" name="DodanieSamolotu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="IO" />
@@ -459,6 +457,27 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UsuwanieLotu" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SzukanieLotu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="IO" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SzukanieLotu" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -731,19 +750,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Aplikacja" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DodanieSamolotu" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in IO" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DodanieLotu" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UsuwanieLotu" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DodanieSamolotu" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in IO" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DodanieLotu" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UsuwanieLotu" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SzukanieLotu" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UsuwanieLotu" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in IO" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DodanieLotu" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DodanieSamolotu" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Aplikacja" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SzukanieLotu" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UsuwanieLotu" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in IO" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DodanieLotu" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DodanieSamolotu" />
       </list>
     </recent_temporary>
   </component>
@@ -757,13 +776,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
-    </task>
-    <task id="LOCAL-00017" summary="still not fix">
-      <created>1482310164940</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1482310164940</updated>
     </task>
     <task id="LOCAL-00018" summary="naprawiłem OutOfBound ale wrócił NullPointer.">
       <created>1482310642761</created>
@@ -1101,7 +1113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485191110686</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Dodanie gettera dla Floty">
+      <created>1485191129888</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1485191129888</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1126,8 +1145,8 @@
     <history-entry file="DodanieLotu - 2017.01.23 at 16h 44m 39s.xml">
       <configuration name="DodanieLotu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DodanieSamolotu - 2017.01.23 at 16h 08m 36s.xml">
-      <configuration name="DodanieSamolotu" configurationId="JUnit" />
+    <history-entry file="SzukanieLotu - 2017.01.23 at 18h 25m 43s.xml">
+      <configuration name="SzukanieLotu" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UsuwanieLotu - 2017.01.23 at 18h 03m 08s.xml">
       <configuration name="UsuwanieLotu" configurationId="JUnit" />
@@ -1205,7 +1224,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Teraz czas na testy!" />
     <MESSAGE value="bug 1&#10;" />
     <MESSAGE value="bug 2" />
     <MESSAGE value="bug 3" />
@@ -1230,7 +1248,8 @@
     <MESSAGE value="Dodawanie Lotu" />
     <MESSAGE value="sprawdzenie dodani lotu" />
     <MESSAGE value="Testy usuwania Lotu zrobione&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testy usuwania Lotu zrobione&#10;" />
+    <MESSAGE value="Dodanie gettera dla Floty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie gettera dla Floty" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1243,16 +1262,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="86" column="5" selection-start-line="73" selection-start-column="4" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notatki.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -2138,14 +2147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/DodanieSamolotu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/UsuwanieSamolotu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -2154,20 +2155,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/DodanieLotu.java">
+    <entry file="file://$PROJECT_DIR$/test/UsuwanieLotu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/UsuwanieLotu.java">
+    <entry file="file://$PROJECT_DIR$/test/DodanieSamolotu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DodanieLotu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SzukanieLotu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2177,7 +2196,7 @@
     <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="215" column="17" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
+          <caret line="218" column="22" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
