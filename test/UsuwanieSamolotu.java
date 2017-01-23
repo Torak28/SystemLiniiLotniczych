@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
  */
 public class UsuwanieSamolotu {
 	@org.junit.Test
-	public void dodajSamolot() throws Exception {
+	public void usunSamolot() throws Exception {
 		Aplikacja app = new Aplikacja();
 
 		app.dodajSamolot("ErBas",1,400,true);

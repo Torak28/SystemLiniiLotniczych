@@ -14,6 +14,9 @@ public class Aplikacja {
 	public List<Samolot> getFlota(){
 		return Flota;
 	}
+	public List<Lot> getLoty(){
+		return Loty;
+	}
     public void dodajSamolot(String NAZWA, int KO, int IM, boolean S){
         Samolot sam = new Samolot(NAZWA,KO,IM,S);
         Flota.add(sam);
