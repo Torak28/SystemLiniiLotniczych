@@ -214,6 +214,7 @@ public class Aplikacja {
 
 		//Szukanie w oparciu o formularze
 		// DZIALA
+		//Testy zrobione
 		System.out.println("Dodanie Biltu o parametrach:\n");
 		int szukany = app.formularzSzukajLot();
         app.szukajLotu(szukany).dodajBiletKupiony(app.szukajLotu(szukany).getMiastoPoczatkowe(), app.szukajLotu(szukany).getMiastoKoncowe(), app.szukajLotu(szukany).getData(), app.szukajLotu(szukany).getGodzina());
@@ -235,10 +236,12 @@ public class Aplikacja {
 
 		//SPRAWDZNIE JAK NIE MA TAKIEGO LOTU
 		//DZIALA
+		//Testy zrobione
 		app.szukajLotu(4);
 
 		//SPRAWDZENIE DODANIA
 		//DZIALA
+		//Testy zrobione
 		System.out.println("Usuwanie Biltu o parametrach:\n");
 		szukany = app.formularzSzukajLot(1,2,10,10);
 		System.out.println(app.szukajLotu(szukany).wygenerujRaport());
@@ -261,6 +264,7 @@ public class Aplikacja {
 
 		//SPRAWDZENIE USUWANIA I POPRAWNOSCI GENEROWANIA RAPORTOW O WSZYSTKIM
 		//DZIALA
+		//Testy zrobione
 		System.out.println(app.raportWszystkieLoty());
 
 		//USUWANIE LOTU
@@ -272,6 +276,7 @@ public class Aplikacja {
 		System.out.println(app.raportWszystkieLoty());
 
 		//ZEPSUCIE I NAPRAWA
+		//Testy zrobione
 		app.wyslijLot(25);
 		System.out.println(app.raportWszystkieLoty());
 		app.naprawSamolot(25);
