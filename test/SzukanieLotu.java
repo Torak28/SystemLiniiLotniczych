@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
  */
 public class SzukanieLotu {
 	@org.junit.Test
-	public void dodajLot() throws Exception {
+	public void szukajLotu() throws Exception {
 		Aplikacja app = new Aplikacja();
 		app.dodajSamolot("ErBas",1,400,true);
 		//Ustawienie Scannera na wejście
