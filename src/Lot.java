@@ -15,6 +15,9 @@ public class Lot {
     private int data;
     private int godzina;
 
+	public List<Bilet> getBilety(){
+		return Bilety;
+	}
     public int getNumerLotu(){
         return numerLotu;
     }
