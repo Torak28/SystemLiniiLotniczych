@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/DodanieLotu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/UsuwanieSamolotu.java" afterPath="$PROJECT_DIR$/test/UsuwanieSamolotu.java" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -372,7 +369,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DodanieLotu">
+  <component name="RunManager" selected="JUnit.All in IO">
     <configuration default="false" name="Aplikacja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Aplikacja" />
@@ -716,8 +713,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DodanieLotu" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in IO" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in IO" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DodanieLotu" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.DodanieSamolotu" />
         <item index="3" class="java.lang.String" itemvalue="Application.Aplikacja" />
       </list>
@@ -733,13 +730,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Dodanie Kupowania i Rezerwowania Biletu z funkcja wypisz do usuniecia">
-      <created>1482257634828</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1482257634828</updated>
     </task>
     <task id="LOCAL-00015" summary="aktualizacja Diagramu klas">
       <created>1482264146385</created>
@@ -1077,7 +1067,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485185537879</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Dodawanie Lotu">
+      <created>1485186326870</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1485186326870</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1093,8 +1090,8 @@
     <history-entry file="All_in_IO - 2017.01.23 at 16h 40m 33s.xml">
       <configuration name="All in IO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AplikacjaTest - 2017.01.23 at 16h 02m 46s.xml">
-      <configuration name="AplikacjaTest" configurationId="JUnit" />
+    <history-entry file="All_in_IO - 2017.01.23 at 16h 51m 29s.xml">
+      <configuration name="All in IO" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AplikacjaTest - 2017.01.23 at 16h 03m 02s.xml">
       <configuration name="AplikacjaTest" configurationId="JUnit" />
@@ -1123,7 +1120,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4853738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4853738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33260393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1181,7 +1178,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Raport o Biletach" />
     <MESSAGE value="zmiana szukania biletu. Niestety jeszcze z niej nigdzie nie korzystam :c" />
     <MESSAGE value="Zmiana w dodawaniu Lotu" />
     <MESSAGE value="Teraz czas na testy!" />
@@ -1206,7 +1202,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Pierwsze testy porobione&#10;" />
     <MESSAGE value="Testowanie Usuwania Samolotu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testowanie Usuwania Samolotu" />
+    <MESSAGE value="Dodawanie Lotu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodawanie Lotu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
