@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/UsuwanieLotu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/DodanieLotu.java" afterPath="$PROJECT_DIR$/test/DodanieLotu.java" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -760,13 +758,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00016" summary="dodanie kodu Dominika ale wywala gdzies IndexOutOfBound&#10;">
-      <created>1482309773567</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1482309773567</updated>
-    </task>
     <task id="LOCAL-00017" summary="still not fix">
       <created>1482310164940</created>
       <option name="number" value="00017" />
@@ -1103,7 +1094,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485187101557</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Testy usuwania Lotu zrobione&#10;">
+      <created>1485191110686</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1485191110686</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1207,7 +1205,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Zmiana w dodawaniu Lotu" />
     <MESSAGE value="Teraz czas na testy!" />
     <MESSAGE value="bug 1&#10;" />
     <MESSAGE value="bug 2" />
@@ -1232,7 +1229,8 @@
     <MESSAGE value="Testowanie Usuwania Samolotu" />
     <MESSAGE value="Dodawanie Lotu" />
     <MESSAGE value="sprawdzenie dodani lotu" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprawdzenie dodani lotu" />
+    <MESSAGE value="Testy usuwania Lotu zrobione&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testy usuwania Lotu zrobione&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -193,6 +193,7 @@ public class Aplikacja {
 
         //Nazwa, klasa odleglosci, ilosc miejsc, stan techniczny
 		//DZIALA
+		//Testy zrobione
         app.dodajSamolot("ErBas",1,400,true);
         app.dodajSamolot("Tupolew",2,200,true);
         app.dodajSamolot("Boeing",2,500,true);
@@ -200,10 +201,12 @@ public class Aplikacja {
 
 		//Nazwa
 		//DZIALA
+		//Testy zrobione
         app.usunSamolot("Tupolew");
 
 		//Miasto Poczatkowe, Miasto Koncowe, Dzien, Godzina
 		//DZIALA
+		//Testy zrobione
         app.dodajLot(1,2,10,10); // 1 --> 2
         app.dodajLot(2,3,10,10); // 2 --> 3
         app.dodajLot(3,1,10,10); // 3 --> 1
@@ -262,6 +265,7 @@ public class Aplikacja {
 
 		//USUWANIE LOTU
 		//DZIALA
+		//Testy zrobione
 		System.out.println("Jaki Lot usunąć?");
 		szukany = app.formularzSzukajLot();
 		app.usunLot(szukany);
