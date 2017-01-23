@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 /**
  * Created by Torak28 on 23.01.2017.
  */
-public class DodanieLotu {
+public class UsuwanieLotu {
 	@org.junit.Test
 	public void dodajLot() throws Exception {
 		Aplikacja app = new Aplikacja();
@@ -25,5 +25,7 @@ public class DodanieLotu {
 		assertEquals(0, app.getLoty().get(0).getIloscZarezerwowanych());
 		assertEquals(23, app.getLoty().get(0).getNumerLotu());
 
+		app.usunLot(app.getLoty().get(0).getNumerLotu());
+		assertEquals(true, app.getLoty().isEmpty());
 	}
 }
