@@ -5,6 +5,9 @@
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;
+/*
+* MOckit, a nie mockito.
+*/
 
 public class CalServiceTest {
 	CalService calService;

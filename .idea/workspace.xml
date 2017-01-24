@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CalService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ICalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/CalServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IO.iml" afterPath="$PROJECT_DIR$/IO.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CalServiceTest.java" afterPath="$PROJECT_DIR$/test/CalServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/UsuwanieBiletu.java" afterPath="$PROJECT_DIR$/test/UsuwanieBiletu.java" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,33 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Samolot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Samolot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#235#236#0" expanded="false" />
-                <element signature="e#263#264#0" expanded="false" />
-                <element signature="e#299#300#0" expanded="false" />
-                <element signature="e#324#325#0" expanded="false" />
-                <element signature="e#361#362#0" expanded="false" />
-                <element signature="e#399#400#0" expanded="false" />
-                <element signature="e#443#444#0" expanded="false" />
-                <element signature="e#479#480#0" expanded="false" />
-                <element signature="e#512#513#0" expanded="false" />
-                <element signature="e#546#547#0" expanded="false" />
-                <element signature="e#586#587#0" expanded="false" />
-                <element signature="e#618#619#0" expanded="false" />
-                <element signature="e#790#791#0" expanded="false" />
-                <element signature="e#814#815#0" expanded="false" />
-                <element signature="e#903#904#0" expanded="false" />
-                <element signature="e#924#925#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Bilet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bilet.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,53 +76,9 @@
       <file leaf-file-name="ICalculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ICalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="51">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notatki.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notatki.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="17">
-                <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="43" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zmiany.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zmiany.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -185,17 +112,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalServiceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/CalServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="125">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DodanieSamolotu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/DodanieSamolotu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SzukanieLotu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/SzukanieLotu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsuwanieBiletu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/UsuwanieBiletu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -245,10 +202,10 @@
         <option value="$PROJECT_DIR$/test/WysylanieNaprawianie.java" />
         <option value="$PROJECT_DIR$/src/Aplikacja.java" />
         <option value="$PROJECT_DIR$/src/Lot.java" />
-        <option value="$PROJECT_DIR$/test/UsuwanieBiletu.java" />
-        <option value="$PROJECT_DIR$/src/ICalculator.java" />
         <option value="$PROJECT_DIR$/src/CalService.java" />
+        <option value="$PROJECT_DIR$/src/ICalculator.java" />
         <option value="$PROJECT_DIR$/test/CalServiceTest.java" />
+        <option value="$PROJECT_DIR$/test/UsuwanieBiletu.java" />
       </list>
     </option>
   </component>
@@ -407,7 +364,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in IO">
+  <component name="RunManager" selected="JUnit.UsuwanieBiletu">
     <configuration default="false" name="All in IO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="IO" />
@@ -779,8 +736,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in IO" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UsuwanieBiletu" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UsuwanieBiletu" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in IO" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.WysylanieNaprawianie" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.DodawanieBiletu" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.SzukanieLotu" />
@@ -797,13 +754,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
-    </task>
-    <task id="LOCAL-00025" summary="dodanie zmian i lekka zmiana pomyslu">
-      <created>1484063338597</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1484063338597</updated>
     </task>
     <task id="LOCAL-00026" summary="dodanie formularza i miejsca do biletu">
       <created>1484067428626</created>
@@ -1141,7 +1091,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485197174251</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Proste Mockowanie&#10;">
+      <created>1485272563676</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1485272563677</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1151,11 +1108,8 @@
     <history-entry file="All_in_IO - 2017.01.24 at 16h 42m 26s.xml">
       <configuration name="All in IO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuwanieBiletu - 2017.01.23 at 19h 23m 04s.xml">
-      <configuration name="UsuwanieBiletu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsuwanieBiletu - 2017.01.23 at 19h 28m 56s.xml">
-      <configuration name="UsuwanieBiletu" configurationId="JUnit" />
+    <history-entry file="All_in_IO - 2017.01.24 at 16h 51m 50s.xml">
+      <configuration name="All in IO" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UsuwanieBiletu - 2017.01.23 at 19h 30m 33s.xml">
       <configuration name="UsuwanieBiletu" configurationId="JUnit" />
@@ -1173,6 +1127,9 @@
       <configuration name="UsuwanieBiletu" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UsuwanieBiletu - 2017.01.23 at 19h 45m 42s.xml">
+      <configuration name="UsuwanieBiletu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuwanieBiletu - 2017.01.24 at 17h 32m 51s.xml">
       <configuration name="UsuwanieBiletu" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1245,7 +1202,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bug 5 pokonany bug 6 u bram" />
     <MESSAGE value="Testy skonczone bangla i smiga, czas na menu" />
     <MESSAGE value="Ostatnie zmiany!" />
     <MESSAGE value="Wszystkie testy przeszlismy pomyslnie! :)" />
@@ -1270,11 +1226,12 @@
     <MESSAGE value="Poprawa Testu" />
     <MESSAGE value="Zrobone testy wysylania i naprawiania" />
     <MESSAGE value="Tadam" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tadam" />
+    <MESSAGE value="Proste Mockowanie&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proste Mockowanie&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1887,20 +1844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/DodanieSamolotu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/SzukanieLotu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/WysylanieNaprawianie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1978,13 +1921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/UsuwanieBiletu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1995,14 +1931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ICalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
@@ -2010,6 +1938,22 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DodanieLotu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ICalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2028,24 +1972,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/DodanieLotu.java">
+    <entry file="file://$PROJECT_DIR$/test/DodanieSamolotu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SzukanieLotu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="97" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/CalServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="125">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/UsuwanieBiletu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

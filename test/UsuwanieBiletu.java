@@ -1,3 +1,5 @@
+import org.junit.Before;
+
 import java.io.ByteArrayInputStream;
 
 import static org.junit.Assert.*;
@@ -6,9 +8,9 @@ import static org.junit.Assert.*;
  * Created by Torak28 on 23.01.2017.
  */
 public class UsuwanieBiletu {
-	@org.junit.Test
-	public void UsuwanieBiletu(){
-		Aplikacja app = new Aplikacja();
+	Aplikacja app = new Aplikacja();
+	@org.junit.Before
+	public void setup(){
 		app.dodajSamolot("ErBas",1,400,true);
 		ByteArrayInputStream in = new ByteArrayInputStream("1".getBytes());
 		System.setIn(in);
@@ -20,7 +22,9 @@ public class UsuwanieBiletu {
 		//Dwa zarezerwowane 3,4
 		app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).dodajBiletZarezerwowany(app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getMiastoPoczatkowe(),app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getMiastoKoncowe(), app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getData(), app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getGodzina() );
 		app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).dodajBiletZarezerwowany(app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getMiastoPoczatkowe(),app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getMiastoKoncowe(), app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getData(), app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getGodzina() );
-
+	}
+	@org.junit.Test
+	public void UsuwanieBiletu(){
 		app.szukajLotu(app.getLoty().get(0).getNumerLotu()).usunBiletKupiony(2);
 		assertEquals(false, app.getLoty().get(0).szukajBiletu(2));
 
