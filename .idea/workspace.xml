@@ -670,13 +670,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00029" summary="Dodanie generowania raportu o Lotach">
-      <created>1484085341391</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1484085341391</updated>
-    </task>
     <task id="LOCAL-00030" summary="Nowy pomysł!">
       <created>1484085360804</created>
       <option name="number" value="00030" />
@@ -1013,7 +1006,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485276463951</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="update xml&#10;">
+      <created>1485279845393</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1485279845393</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1117,7 +1117,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ostatnie dodatki" />
     <MESSAGE value="Nowy UML" />
     <MESSAGE value="qfix - pare stary setterow przepisalem" />
     <MESSAGE value="Zmiana Sprawozdania" />
@@ -1142,7 +1141,8 @@
     <MESSAGE value="dodanie Before&#10;" />
     <MESSAGE value="Zmiana Testowania, dodanie Before" />
     <MESSAGE value="Dodanie ostatniego testu&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie ostatniego testu&#10;" />
+    <MESSAGE value="update xml&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="update xml&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
