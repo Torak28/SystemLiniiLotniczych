@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/Naprawianie.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/DodanieLotu.java" afterPath="$PROJECT_DIR$/test/DodanieLotu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/DodanieSamolotu.java" afterPath="$PROJECT_DIR$/test/DodanieSamolotu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/DodawanieBiletu.java" afterPath="$PROJECT_DIR$/test/DodawanieBiletu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/SzukanieLotu.java" afterPath="$PROJECT_DIR$/test/SzukanieLotu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/UsuwanieLotu.java" afterPath="$PROJECT_DIR$/test/UsuwanieLotu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/UsuwanieSamolotu.java" afterPath="$PROJECT_DIR$/test/UsuwanieSamolotu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/WysylanieNaprawianie.java" afterPath="$PROJECT_DIR$/test/WysylanieNaprawianie.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/WysylanieNaprawianie.java" afterPath="$PROJECT_DIR$/test/Wysylanie.java" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WysylanieNaprawianie.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/WysylanieNaprawianie.java">
+      <file leaf-file-name="Wysylanie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Wysylanie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="329">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Naprawianie.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Naprawianie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -117,6 +122,7 @@
         <option value="$PROJECT_DIR$/test/UsuwanieLotu.java" />
         <option value="$PROJECT_DIR$/test/UsuwanieSamolotu.java" />
         <option value="$PROJECT_DIR$/test/WysylanieNaprawianie.java" />
+        <option value="$PROJECT_DIR$/test/Naprawianie.java" />
       </list>
     </option>
   </component>
@@ -666,13 +672,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00027" summary="Dodanie Raportu&#10;">
-      <created>1484068144160</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1484068144160</updated>
-    </task>
     <task id="LOCAL-00028" summary="qfix&#10;">
       <created>1484084882422</created>
       <option name="number" value="00028" />
@@ -1009,7 +1008,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485275726441</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Zmiana Testowania, dodanie Before">
+      <created>1485276331965</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1485276331965</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1025,8 +1031,8 @@
     <history-entry file="All_in_IO - 2017.01.24 at 17h 45m 03s.xml">
       <configuration name="All in IO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuwanieBiletu - 2017.01.23 at 19h 31m 49s.xml">
-      <configuration name="UsuwanieBiletu" configurationId="JUnit" />
+    <history-entry file="All_in_IO - 2017.01.24 at 17h 47m 25s.xml">
+      <configuration name="All in IO" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UsuwanieBiletu - 2017.01.23 at 19h 37m 56s.xml">
       <configuration name="UsuwanieBiletu" configurationId="JUnit" />
@@ -1113,7 +1119,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ostatnie zmiany!" />
     <MESSAGE value="Wszystkie testy przeszlismy pomyslnie! :)" />
     <MESSAGE value="Ostatnie dodatki" />
     <MESSAGE value="Nowy UML" />
@@ -1138,7 +1143,8 @@
     <MESSAGE value="Tadam" />
     <MESSAGE value="Proste Mockowanie&#10;" />
     <MESSAGE value="dodanie Before&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie Before&#10;" />
+    <MESSAGE value="Zmiana Testowania, dodanie Before" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zmiana Testowania, dodanie Before" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1151,16 +1157,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1927,10 +1923,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/WysylanieNaprawianie.java">
+    <entry file="file://$PROJECT_DIR$/test/Wysylanie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="329">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Naprawianie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
