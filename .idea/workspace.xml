@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CalService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ICalculator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/CalServiceTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/DodanieLotu.java" afterPath="$PROJECT_DIR$/test/DodanieLotu.java" />
     </list>
@@ -686,13 +683,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00031" summary="Pozbyłem sie boolow przy setterach">
-      <created>1484085435964</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1484085435964</updated>
-    </task>
     <task id="LOCAL-00032" summary="Pozbyłem sie boolow przy setterach">
       <created>1484085473709</created>
       <option name="number" value="00032" />
@@ -1029,7 +1019,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485280921287</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Ususniecie Mockito">
+      <created>1485288824566</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1485288824566</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1075,7 +1072,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4420131" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4420131" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33260393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1133,7 +1130,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nowy UML" />
     <MESSAGE value="qfix - pare stary setterow przepisalem" />
     <MESSAGE value="Zmiana Sprawozdania" />
     <MESSAGE value="Poprawienie Sprawozdania" />
@@ -1158,7 +1154,8 @@
     <MESSAGE value="Zmiana Testowania, dodanie Before" />
     <MESSAGE value="Dodanie ostatniego testu&#10;" />
     <MESSAGE value="update xml&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="update xml&#10;" />
+    <MESSAGE value="Ususniecie Mockito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ususniecie Mockito" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

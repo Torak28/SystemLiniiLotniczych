@@ -1,3 +1,6 @@
+import org.junit.Rule;
+import org.junit.rules.ExpectedException;
+
 import java.io.ByteArrayInputStream;
 import java.util.Scanner;
 
@@ -8,6 +11,8 @@ import static org.junit.Assert.*;
  */
 public class DodanieLotu {
 	Aplikacja app = new Aplikacja();
+	@org.junit.Rule
+	public ExpectedException exception = ExpectedException.none();
 	@org.junit.Before
 	public void setup(){
 		app.dodajSamolot("ErBas",1,400,true);
