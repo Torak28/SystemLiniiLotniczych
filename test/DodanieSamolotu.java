@@ -4,9 +4,9 @@ import static org.junit.Assert.*;
  * Created by Torak28 on 23.01.2017.
  */
 public class DodanieSamolotu {
+	Aplikacja app = new Aplikacja();
 	@org.junit.Test
 	public void dodajSamolot() throws Exception {
-		Aplikacja app = new Aplikacja();
 		app.dodajSamolot("ErBas",1,400,true);
 		assertEquals("ErBas", app.getFlota().get(0).getNazwa());
 		assertEquals(1, app.getFlota().get(0).getKlasaOdleglosci());
