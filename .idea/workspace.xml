@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/Naprawianie.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/WysylanieNaprawianie.java" afterPath="$PROJECT_DIR$/test/Wysylanie.java" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -672,13 +670,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00028" summary="qfix&#10;">
-      <created>1484084882422</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1484084882422</updated>
-    </task>
     <task id="LOCAL-00029" summary="Dodanie generowania raportu o Lotach">
       <created>1484085341391</created>
       <option name="number" value="00029" />
@@ -1015,7 +1006,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485276331965</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Dodanie ostatniego testu&#10;">
+      <created>1485276463951</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1485276463951</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1052,7 +1050,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1119,7 +1117,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Wszystkie testy przeszlismy pomyslnie! :)" />
     <MESSAGE value="Ostatnie dodatki" />
     <MESSAGE value="Nowy UML" />
     <MESSAGE value="qfix - pare stary setterow przepisalem" />
@@ -1144,7 +1141,8 @@
     <MESSAGE value="Proste Mockowanie&#10;" />
     <MESSAGE value="dodanie Before&#10;" />
     <MESSAGE value="Zmiana Testowania, dodanie Before" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zmiana Testowania, dodanie Before" />
+    <MESSAGE value="Dodanie ostatniego testu&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie ostatniego testu&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
