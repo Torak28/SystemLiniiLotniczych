@@ -21,12 +21,10 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/mockito-all-1.9.5.jar/mockito-all-1.9.5.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jmockit-1.27.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/Desktop/mockito-all-1.9.5.jar/mockito-all-1.9.5.jar!/" />
-        </SOURCES>
+        <SOURCES />
       </library>
     </orderEntry>
   </component>
