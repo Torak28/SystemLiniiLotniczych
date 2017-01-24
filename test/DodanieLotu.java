@@ -1,4 +1,5 @@
 import org.junit.Rule;
+import org.junit.experimental.categories.Category;
 import org.junit.rules.ExpectedException;
 
 import java.io.ByteArrayInputStream;

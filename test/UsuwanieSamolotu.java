@@ -1,4 +1,5 @@
 import org.junit.Before;
+import org.junit.rules.ExpectedException;
 
 import static org.junit.Assert.*;
 
@@ -7,6 +8,8 @@ import static org.junit.Assert.*;
  */
 public class UsuwanieSamolotu {
 	Aplikacja app = new Aplikacja();
+	@org.junit.Rule
+	public ExpectedException exception = ExpectedException.none();
 	@org.junit.Before
 	public void setup(){
 		app.dodajSamolot("ErBas",1,400,true);

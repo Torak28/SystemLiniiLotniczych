@@ -1,9 +1,13 @@
+import org.junit.rules.ExpectedException;
+
 import static org.junit.Assert.*;
 
 /**
  * Created by Torak28 on 23.01.2017.
  */
 public class DodanieSamolotu {
+	@org.junit.Rule
+	public ExpectedException exception = ExpectedException.none();
 	Aplikacja app = new Aplikacja();
 	@org.junit.Test
 	public void dodajSamolot() throws Exception {
