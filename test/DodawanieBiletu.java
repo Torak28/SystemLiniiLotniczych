@@ -1,4 +1,6 @@
 import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import java.io.ByteArrayInputStream;
@@ -10,9 +12,9 @@ import static org.junit.Assert.*;
  */
 public class DodawanieBiletu {
 	Aplikacja app = new Aplikacja();
-	@org.junit.Rule
+	@Rule
 	public ExpectedException exception = ExpectedException.none();
-	@org.junit.Before
+	@Before
 	public void setup(){
 		app.dodajSamolot("ErBas",1,400,true);
 		//Ustawienie Scannera na wejście
@@ -20,7 +22,7 @@ public class DodawanieBiletu {
 		System.setIn(in);
 		app.dodajLot(1,2,10,10);
 	}
-	@org.junit.Test
+	@Test
 	public void dodajBilet() throws Exception{
 		app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).dodajBiletKupiony(app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getMiastoPoczatkowe(),app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getMiastoKoncowe(), app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getData(), app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getGodzina() );
 

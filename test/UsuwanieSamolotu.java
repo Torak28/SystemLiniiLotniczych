@@ -1,4 +1,6 @@
 import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import static org.junit.Assert.*;
@@ -8,15 +10,15 @@ import static org.junit.Assert.*;
  */
 public class UsuwanieSamolotu {
 	Aplikacja app = new Aplikacja();
-	@org.junit.Rule
+	@Rule
 	public ExpectedException exception = ExpectedException.none();
-	@org.junit.Before
+	@Before
 	public void setup(){
 		app.dodajSamolot("ErBas",1,400,true);
 		app.dodajSamolot("Tupolew",2,200,true);
 		app.dodajSamolot("Orzel",2,500,true);
 	}
-	@org.junit.Test
+	@Test
 	public void usunSamolot() throws Exception {
 		app.usunSamolot("Tupolew");
 		assertEquals("Orzel", app.getFlota().get(1).getNazwa());

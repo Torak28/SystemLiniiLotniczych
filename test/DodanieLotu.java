@@ -1,5 +1,6 @@
+import org.junit.Before;
 import org.junit.Rule;
-import org.junit.experimental.categories.Category;
+import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import java.io.ByteArrayInputStream;
@@ -12,13 +13,13 @@ import static org.junit.Assert.*;
  */
 public class DodanieLotu {
 	Aplikacja app = new Aplikacja();
-	@org.junit.Rule
+	@Rule
 	public ExpectedException exception = ExpectedException.none();
-	@org.junit.Before
+	@Before
 	public void setup(){
 		app.dodajSamolot("ErBas",1,400,true);
 	}
-	@org.junit.Test
+	@Test
 	public void dodajLot() throws Exception {
 		//Ustawienie Scannera na wejście
 		ByteArrayInputStream in = new ByteArrayInputStream("1".getBytes());

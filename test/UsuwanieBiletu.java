@@ -1,4 +1,6 @@
 import org.junit.Before;
+import org.junit.Test;
+import org.junit.Rule;
 import org.junit.rules.ExpectedException;
 
 import java.io.ByteArrayInputStream;
@@ -10,9 +12,9 @@ import static org.junit.Assert.*;
  */
 public class UsuwanieBiletu {
 	Aplikacja app = new Aplikacja();
-	@org.junit.Rule
+	@Rule
 	public ExpectedException exception = ExpectedException.none();
-	@org.junit.Before
+	@Before
 	public void setup(){
 		app.dodajSamolot("ErBas",1,400,true);
 		ByteArrayInputStream in = new ByteArrayInputStream("1".getBytes());
@@ -26,7 +28,7 @@ public class UsuwanieBiletu {
 		app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).dodajBiletZarezerwowany(app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getMiastoPoczatkowe(),app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getMiastoKoncowe(), app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getData(), app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getGodzina() );
 		app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).dodajBiletZarezerwowany(app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getMiastoPoczatkowe(),app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getMiastoKoncowe(), app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getData(), app.szukajLotu(app.getLoty().get(0).generujNumerLotu()).getGodzina() );
 	}
-	@org.junit.Test
+	@Test
 	public void UsuwanieBiletu(){
 		app.szukajLotu(app.getLoty().get(0).getNumerLotu()).usunBiletKupiony(2);
 		assertEquals(false, app.getLoty().get(0).szukajBiletu(2));
