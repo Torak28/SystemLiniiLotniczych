@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sekwencje.md" afterPath="$PROJECT_DIR$/Sekwencje.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FitNesse.md" afterPath="$PROJECT_DIR$/FitNesse.md" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,12 +98,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FitNesse.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FitNesse.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FitNesse.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="730">
-                <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+              <first_editor relative-caret-position="-126">
+                <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -142,12 +142,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sekwencje.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sekwencje.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sekwencje.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="123" column="42" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="30" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -212,6 +212,7 @@
         <option value="$PROJECT_DIR$/test/FitNesse" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Sekwencje.md" />
+        <option value="$PROJECT_DIR$/FitNesse.md" />
       </list>
     </option>
   </component>
@@ -730,13 +731,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00044" summary="bug 3">
-      <created>1484095740096</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1484095740096</updated>
-    </task>
     <task id="LOCAL-00045" summary="zmiany">
       <created>1484096185877</created>
       <option name="number" value="00045" />
@@ -1073,7 +1067,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485333091575</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="fix">
+      <created>1485333235137</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1485333235137</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1177,7 +1178,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sprawdzenie dodani lotu" />
     <MESSAGE value="Testy usuwania Lotu zrobione&#10;" />
     <MESSAGE value="Dodanie gettera dla Floty" />
     <MESSAGE value="Szukanie Test" />
@@ -1202,7 +1202,8 @@
     <MESSAGE value="Dodanie testow akceptacyjnych" />
     <MESSAGE value="Testy akceptacyjne" />
     <MESSAGE value="apdejt do sprawka" />
-    <option name="LAST_COMMIT_MESSAGE" value="apdejt do sprawka" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1769,26 +1770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FitNesse.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="730">
-            <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1812,8 +1793,8 @@
     <entry file="file://$PROJECT_DIR$/Sekwencje.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="123" column="42" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="30" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1822,6 +1803,26 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="2839">
           <caret line="167" column="46" selection-start-line="167" selection-start-column="46" selection-end-line="167" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitNesse.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-126">
+            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">

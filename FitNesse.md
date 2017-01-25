@@ -1,3 +1,13 @@
+# SystemLiniiLotniczych
+
+Przygotowali
+ * Jarosław Ciołek-Żelechowski, **218386**
+ * Dominik Cecotka, **218339**
+ 
+### Idea testowania w Fitnesse
+Tym razem stawiamy zupełnie osobny system, działający na zasadzie strony internetowej, który dostaje od Nas nasze pliki .class i na ich podstawie i zadanych przez Nas danych wykonuje Testowanie. Z ważnych do podkreślenia rzeczy należy powiedzieć że jest On w stanie przetestować przedewszystkim konstruktory bezargumentowe, oraz wszystkie funkcje wykorzystujące atrybuty klasy do pracy. Niestety dla Nas w naszej aplikacji jest tylko jedna funkcja zwracająca bezpośrednio int w zależności od ustawionych atrybutów klasy i jest to *generujNymerLotu()* w klasie **Lot**. Reszta przeprowadzonych przez Nas testów to przedewszystkim testy getterów.
+
+
 ### Komenda do posatwienia fitnessa
 ```
 java -jar fitnesse-stanalone.jar -p 8090
