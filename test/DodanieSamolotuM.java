@@ -27,7 +27,11 @@ public class DodanieSamolotuM{
 		assertEquals(liczba1, app.getFlota().get(0).getKlasaOdleglosci());
 		assertEquals(liczba2, app.getFlota().get(0).getIloscMiejsc());
 		assertEquals(stan, app.getFlota().get(0).getStan());
-
+		//Porownanie
+		String expResult = "ErBas";
+		String result = app.getFlota().get(0).getNazwa();
+		assertEquals(expResult,result);
+		//Porownanie calego obiektu
 		assertTrue(app.getFlota().get(0).equals(testS));
 	}
 }

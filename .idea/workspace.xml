@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="Przeciazenie porownania">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/DodanieSamolotuM.java" />
+    <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Samolot.java" afterPath="$PROJECT_DIR$/src/Samolot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RaportLotow.java" afterPath="$PROJECT_DIR$/test/RaportLotow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/DodanieSamolotuM.java" afterPath="$PROJECT_DIR$/test/DodanieSamolotuM.java" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +55,8 @@
       <file leaf-file-name="DodanieSamolotuM.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/DodanieSamolotuM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -741,13 +739,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00035" summary="Zmiana w sposoie usuwania biletow">
-      <created>1484087546625</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1484087546625</updated>
-    </task>
     <task id="LOCAL-00036" summary="wprowadzone zmiany&#10;">
       <created>1484087608418</created>
       <option name="number" value="00036" />
@@ -1084,13 +1075,17 @@
       <option name="project" value="LOCAL" />
       <updated>1485301166791</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Przeciazenie porownania">
+      <created>1485303642789</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1485303642789</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DodanieSamolotuM - 2017.01.25 at 01h 05m 52s.xml">
-      <configuration name="DodanieSamolotuM" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DodanieSamolotuM - 2017.01.25 at 01h 06m 16s.xml">
       <configuration name="DodanieSamolotuM" configurationId="JUnit" />
     </history-entry>
@@ -1118,6 +1113,9 @@
     <history-entry file="DodanieSamolotuM - 2017.01.25 at 01h 20m 37s.xml">
       <configuration name="DodanieSamolotuM" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DodanieSamolotuM - 2017.01.25 at 01h 24m 07s.xml">
+      <configuration name="DodanieSamolotuM" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -1130,7 +1128,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44091904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44091904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33260393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1943,8 +1941,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/DodanieSamolotuM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
