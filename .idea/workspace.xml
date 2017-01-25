@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/FitNesse" afterPath="$PROJECT_DIR$/FitNesse.md" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -698,13 +697,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00041" summary="Teraz czas na testy!">
-      <created>1484094467134</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1484094467134</updated>
-    </task>
     <task id="LOCAL-00042" summary="bug 1&#10;">
       <created>1484095085609</created>
       <option name="number" value="00042" />
@@ -1041,7 +1033,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485310419970</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Testy akceptacyjne">
+      <created>1485310500568</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1485310500568</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1168,9 +1167,9 @@
     <MESSAGE value="Sprawdzanie dodania 2" />
     <MESSAGE value="Zmiana naswy" />
     <MESSAGE value="Ustawienie pod fitnese" />
-    <MESSAGE value="Testy akceptacyjne" />
     <MESSAGE value="Dodanie testow akceptacyjnych" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie testow akceptacyjnych" />
+    <MESSAGE value="Testy akceptacyjne" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testy akceptacyjne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
