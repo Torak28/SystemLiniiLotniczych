@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/DodanieSamolotuM.java" afterPath="$PROJECT_DIR$/test/DodanieSamolotu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lot.java" afterPath="$PROJECT_DIR$/src/Lot.java" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +52,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DodanieSamolotu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="195" column="20" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5208#5209#0" expanded="true" />
+                <element signature="e#5272#5273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DodanieSamolotu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/DodanieSamolotu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +101,8 @@
       <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+            <state relative-caret-position="561">
+              <caret line="161" column="38" selection-start-line="161" selection-start-column="33" selection-end-line="161" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#402#403#0" expanded="true" />
@@ -104,7 +118,6 @@
                 <element signature="method#usunLot#0;class#Aplikacja#0" expanded="false" />
                 <element signature="method#szukajLotu#0;class#Aplikacja#0" expanded="false" />
                 <element signature="method#formularzSzukajLot#0;class#Aplikacja#0" expanded="false" />
-                <element signature="method#raportWszystkieLoty#0;class#Aplikacja#0" expanded="false" />
                 <element signature="method#wyslijLot#0;class#Aplikacja#0" expanded="false" />
                 <element signature="method#Aplikacja#0;class#Aplikacja#0" expanded="false" />
                 <element signature="method#main#0;class#Aplikacja#0" expanded="false" />
@@ -159,7 +172,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/AplikacjaTest.java" />
         <option value="$PROJECT_DIR$/src/Aplikacja.java" />
-        <option value="$PROJECT_DIR$/src/Lot.java" />
         <option value="$PROJECT_DIR$/src/CalService.java" />
         <option value="$PROJECT_DIR$/src/ICalculator.java" />
         <option value="$PROJECT_DIR$/test/CalServiceTest.java" />
@@ -179,13 +191,15 @@
         <option value="$PROJECT_DIR$/src/Samolot.java" />
         <option value="$PROJECT_DIR$/test/DodanieSamolotuM.java" />
         <option value="$PROJECT_DIR$/test/DodanieSamolotu.java" />
+        <option value="$PROJECT_DIR$/src/Lot.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -294,20 +308,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SystemLiniiLotniczych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SystemLiniiLotniczych" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -336,7 +336,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DodanieSamolotu">
+  <component name="RunManager" selected="JUnit.All in IO">
     <configuration default="false" name="All in IO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="IO" />
@@ -346,27 +346,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="xd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="IO" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="xd" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -440,6 +419,21 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aplikacja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Aplikacja" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IO" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -701,18 +695,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in IO" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.xd" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BiletTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BiletTest.DodawanieBiletuTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DodanieSamolotu" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BiletTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BiletTest.DodawanieBiletuTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DodanieSamolotu" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Aplikacja" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DodanieSamolotu" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in IO" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BiletTest.DodawanieBiletuTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BiletTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.xd" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in IO" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Aplikacja" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DodanieSamolotu" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BiletTest.DodawanieBiletuTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BiletTest" />
       </list>
     </recent_temporary>
   </component>
@@ -726,13 +720,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
-    </task>
-    <task id="LOCAL-00037" summary="xd&#10;">
-      <created>1484087635345</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1484087635345</updated>
     </task>
     <task id="LOCAL-00038" summary="Raport o Biletach">
       <created>1484088152838</created>
@@ -1070,24 +1057,31 @@
       <option name="project" value="LOCAL" />
       <updated>1485303949112</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Zmiana naswy">
+      <created>1485304047013</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1485304047013</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="All_in_IO - 2017.01.25 at 01h 27m 44s.xml">
+      <configuration name="All in IO" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_IO - 2017.01.25 at 02h 00m 13s.xml">
+      <configuration name="All in IO" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_IO - 2017.01.25 at 02h 00m 25s.xml">
+      <configuration name="All in IO" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_IO - 2017.01.25 at 02h 01m 29s.xml">
+      <configuration name="All in IO" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="DodanieSamolotu - 2017.01.25 at 01h 27m 16s.xml">
       <configuration name="DodanieSamolotu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DodanieSamolotuM - 2017.01.25 at 01h 13m 09s.xml">
-      <configuration name="DodanieSamolotuM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DodanieSamolotuM - 2017.01.25 at 01h 15m 38s.xml">
-      <configuration name="DodanieSamolotuM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DodanieSamolotuM - 2017.01.25 at 01h 16m 58s.xml">
-      <configuration name="DodanieSamolotuM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DodanieSamolotuM - 2017.01.25 at 01h 17m 10s.xml">
-      <configuration name="DodanieSamolotuM" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DodanieSamolotuM - 2017.01.25 at 01h 18m 12s.xml">
       <configuration name="DodanieSamolotuM" configurationId="JUnit" />
@@ -1106,8 +1100,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1116,12 +1110,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44091904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43661973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33260393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22100656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1076759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1174,7 +1168,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dodanie img" />
     <MESSAGE value="Update" />
     <MESSAGE value="Pierwsze testy porobione&#10;" />
     <MESSAGE value="Testowanie Usuwania Samolotu" />
@@ -1199,11 +1192,12 @@
     <MESSAGE value="Dodanie prostego Mocikta" />
     <MESSAGE value="Przeciazenie porownania" />
     <MESSAGE value="Sprawdzanie dodania 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprawdzanie dodania 2" />
+    <MESSAGE value="Zmiana naswy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zmiana naswy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1729,16 +1723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="147" column="33" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ICalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1845,33 +1829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="method#dodajSamolot#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#usunSamolot#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#czyMamSamolotDoLotu#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#czyTakiLotJuzIstnieje#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#dodajLot#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#szukajSamolot#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#wybierzSamolot#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#raportSamoloty#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#usunLot#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#szukajLotu#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#formularzSzukajLot#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#raportWszystkieLoty#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#wyslijLot#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#Aplikacja#0;class#Aplikacja#0" expanded="false" />
-            <element signature="method#main#0;class#Aplikacja#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/DodawanieBiletu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-20">
@@ -1927,10 +1884,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/DodanieSamolotu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="161" column="38" selection-start-line="161" selection-start-column="33" selection-end-line="161" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="method#dodajSamolot#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#usunSamolot#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#czyMamSamolotDoLotu#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#czyTakiLotJuzIstnieje#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#dodajLot#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#szukajSamolot#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#wybierzSamolot#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#raportSamoloty#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#usunLot#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#szukajLotu#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#formularzSzukajLot#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#wyslijLot#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#Aplikacja#0;class#Aplikacja#0" expanded="false" />
+            <element signature="method#main#0;class#Aplikacja#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="195" column="20" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5208#5209#0" expanded="true" />
+            <element signature="e#5272#5273#0" expanded="true" />
           </folding>
         </state>
       </provider>
