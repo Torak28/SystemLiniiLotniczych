@@ -1,15 +1,39 @@
-import org.junit.rules.ExpectedException;
-
+import org.junit.Before;
+import org.junit.Test;
+import mockit.integration.junit4.JMockit;
 import static org.junit.Assert.*;
+import org.junit.runner.RunWith;
 
-/**
- * Created by Torak28 on 23.01.2017.
- */
+@RunWith(JMockit.class)
 public class DodanieSamolotu {
-	@org.junit.Rule
-	public ExpectedException exception = ExpectedException.none();
 	Aplikacja app = new Aplikacja();
-	@org.junit.Test
+	String nazwa, stan;
+	int liczba1, liczba2;
+	Samolot testS;
+
+	@Before
+	public void setup() {
+		nazwa = "ErBas";
+		liczba1 = 1;
+		liczba2 = 400;
+		stan = "sprawny";
+		testS = new Samolot("ErBas",1,400,true);
+	}
+	@Test
+	public void DodanieSamolotu(){
+		app.dodajSamolot("ErBas",1,400,true);
+		assertEquals(nazwa, app.getFlota().get(0).getNazwa());
+		assertEquals(liczba1, app.getFlota().get(0).getKlasaOdleglosci());
+		assertEquals(liczba2, app.getFlota().get(0).getIloscMiejsc());
+		assertEquals(stan, app.getFlota().get(0).getStan());
+		//Porownanie
+		String expResult = "ErBas";
+		String result = app.getFlota().get(0).getNazwa();
+		assertEquals(expResult,result);
+		//Porownanie calego obiektu
+		assertTrue(app.getFlota().get(0).equals(testS));
+	}
+	@Test
 	public void dodajSamolot() throws Exception {
 		app.dodajSamolot("ErBas",1,400,true);
 		assertEquals("ErBas", app.getFlota().get(0).getNazwa());
@@ -22,5 +46,4 @@ public class DodanieSamolotu {
 		assertEquals(200, app.getFlota().get(1).getIloscMiejsc());
 		assertEquals("sprawny", app.getFlota().get(1).getStan());
 	}
-
 }
