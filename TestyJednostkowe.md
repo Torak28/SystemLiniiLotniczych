@@ -76,4 +76,4 @@ Dla metody *dodajSamolot()* przeprowadziłem testowanie dwuetapowe. Pierw dodaje
 ### Dalesze Testy
   
 Reszta testowania jest utrzymana dokładnie w tej samym tonie. Kodu nie przeklejam, bo i tak jest tutaj dostępny.
-[Imgur](http://i.imgur.com/nNaQfkw.png)
+![alt text](http://i.imgur.com/nNaQfkw.png "Logo Title Text 1")

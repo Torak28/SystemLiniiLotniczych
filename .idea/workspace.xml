@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestyJednostkowe.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/DodanieLotu.java" afterPath="$PROJECT_DIR$/test/DodanieLotu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestyJednostkowe.md" afterPath="$PROJECT_DIR$/TestyJednostkowe.md" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +32,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="338">
-                <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+                <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -703,13 +702,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00048" summary="bug 5 znaleziony">
-      <created>1484096707714</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1484096707714</updated>
-    </task>
     <task id="LOCAL-00049" summary="bug 5 pokonany bug 6 u bram">
       <created>1484098798853</created>
       <option name="number" value="00049" />
@@ -1046,7 +1038,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485334544812</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Dodanie testow jednostkowych">
+      <created>1485335444253</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1485335444253</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1151,7 +1150,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Szukanie Test" />
     <MESSAGE value="Poprawki w testowaniu" />
     <MESSAGE value="Dodanie Test" />
     <MESSAGE value="Dodanie gettera" />
@@ -1176,7 +1174,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="sprzatanie" />
     <MESSAGE value="lekka zmianna testowania" />
-    <option name="LAST_COMMIT_MESSAGE" value="lekka zmianna testowania" />
+    <MESSAGE value="Dodanie testow jednostkowych" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie testow jednostkowych" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1825,13 +1824,13 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="338">
-            <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+            <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
             <folding>
-              <marker date="1485335426433" expanded="true" signature="960:964" ph=" { " />
-              <marker date="1485335426433" expanded="true" signature="1001:1004" ph=" }" />
-              <marker date="1485335426433" expanded="true" signature="1053:1626" ph="{...}" />
-              <marker date="1485335426433" expanded="true" signature="2467:2591" ph="{...}" />
-              <marker date="1485335426433" expanded="true" signature="2631:3145" ph="{...}" />
+              <marker date="1485335546271" expanded="true" signature="960:964" ph=" { " />
+              <marker date="1485335546271" expanded="true" signature="1001:1004" ph=" }" />
+              <marker date="1485335546271" expanded="true" signature="1053:1626" ph="{...}" />
+              <marker date="1485335546271" expanded="true" signature="2467:2591" ph="{...}" />
+              <marker date="1485335546271" expanded="true" signature="2631:3145" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1842,11 +1841,11 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1485335426433" expanded="true" signature="960:964" ph=" { " />
-              <marker date="1485335426433" expanded="true" signature="1001:1004" ph=" }" />
-              <marker date="1485335426433" expanded="true" signature="1053:1626" ph="{...}" />
-              <marker date="1485335426433" expanded="true" signature="2467:2591" ph="{...}" />
-              <marker date="1485335426433" expanded="true" signature="2631:3145" ph="{...}" />
+              <marker date="1485335546271" expanded="true" signature="960:964" ph=" { " />
+              <marker date="1485335546271" expanded="true" signature="1001:1004" ph=" }" />
+              <marker date="1485335546271" expanded="true" signature="1053:1626" ph="{...}" />
+              <marker date="1485335546271" expanded="true" signature="2467:2591" ph="{...}" />
+              <marker date="1485335546271" expanded="true" signature="2631:3145" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
