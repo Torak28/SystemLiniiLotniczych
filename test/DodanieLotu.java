@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import java.io.ByteArrayInputStream;
-import java.util.Scanner;
 
 import static org.junit.Assert.*;
 
