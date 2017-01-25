@@ -48,4 +48,12 @@ public class Samolot {
         stan = S;
 		numerLotu = 0;
     }
+    public boolean equals(Samolot o){
+        if (o == null)
+            return false;
+        if (nazwa == o.getNazwa() && klasaOdleglosci == o.getKlasaOdleglosci() && iloscMiejsc == o.getIloscMiejsc() && numerLotu == o.getNumerLotu())
+            return true;
+        else
+            return false;
+    }
 }
