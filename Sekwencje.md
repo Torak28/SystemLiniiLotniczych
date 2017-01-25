@@ -121,7 +121,7 @@ public boolean dodajBiletZarezerwowany(int mp, int mk, int d, int g){
 ```
 
 ###Dodanie Lotu
-![alt text](http://i.imgur.com/MYjiHPd.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/taU66Jf.png "Logo Title Text 1")
 
 Wywołanie:
 ```java
@@ -162,7 +162,7 @@ public void dodajLot(int MP, int MK, int D, int G){
 
 
 ###Szukanie lotu
-![alt text](http://i.imgur.com/lRpgFHh.png "Logo Title Text 1")
+![alt text](http://i.imgur.com/MYjiHPd.png "Logo Title Text 1")
 
 Wywołanie:
 ```java

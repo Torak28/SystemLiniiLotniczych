@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sekwencje.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Rezerwacja Biletu.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Szukanie Lotu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Utworzenie Lotu.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Zakup Biletu.PNG" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/UML.png" afterPath="$PROJECT_DIR$/img/UML.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sekwencje.md" afterPath="$PROJECT_DIR$/Sekwencje.md" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -152,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/Sekwencje.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="561">
+              <first_editor relative-caret-position="221">
                 <caret line="123" column="42" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
                 <folding />
               </first_editor>
@@ -736,13 +730,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00043" summary="bug 2">
-      <created>1484095494766</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1484095494766</updated>
-    </task>
     <task id="LOCAL-00044" summary="bug 3">
       <created>1484095740096</created>
       <option name="number" value="00044" />
@@ -1079,7 +1066,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485310768686</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="apdejt do sprawka">
+      <created>1485333091575</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1485333091575</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1183,7 +1177,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dodawanie Lotu" />
     <MESSAGE value="sprawdzenie dodani lotu" />
     <MESSAGE value="Testy usuwania Lotu zrobione&#10;" />
     <MESSAGE value="Dodanie gettera dla Floty" />
@@ -1208,7 +1201,8 @@
     <MESSAGE value="Ustawienie pod fitnese" />
     <MESSAGE value="Dodanie testow akceptacyjnych" />
     <MESSAGE value="Testy akceptacyjne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testy akceptacyjne" />
+    <MESSAGE value="apdejt do sprawka" />
+    <option name="LAST_COMMIT_MESSAGE" value="apdejt do sprawka" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1818,7 +1812,7 @@
     <entry file="file://$PROJECT_DIR$/Sekwencje.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="561">
+          <first_editor relative-caret-position="221">
             <caret line="123" column="42" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
             <folding />
           </first_editor>
