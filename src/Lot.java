@@ -196,6 +196,5 @@ public class Lot {
         samolot = S;
 		samolot.setNumerLotu(numerLotu);
     }
-    public Lot(){
-	}
+    public Lot(){}
 }

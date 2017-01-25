@@ -48,6 +48,7 @@ public class Samolot {
         stan = S;
 		numerLotu = 0;
     }
+    public Samolot(){}
     public boolean equals(Samolot o){
         if (o == null)
             return false;

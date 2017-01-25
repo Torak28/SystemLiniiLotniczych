@@ -20,6 +20,9 @@ public class Bilet {
     public int getNumerLotu(){
         return numerLotu;
     }
+    public void setNumerLotu(int NL){
+		numerLotu = NL;
+	}
     public int getTyp(){
         return typ;
     }
@@ -59,5 +62,7 @@ public class Bilet {
         godzina = G;
 		miejsce = M;
     }
+    public Bilet(){
+	}
 }
 
