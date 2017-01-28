@@ -181,7 +181,7 @@ public class Aplikacja {
 		szukajLotu(NL).getSamolot().setStan(true);
 	}
     public  Aplikacja(){
-
+		//dodajSamolot("ErBas",1,400,true);
     }
 
     //Tymczasowe wywołanie
