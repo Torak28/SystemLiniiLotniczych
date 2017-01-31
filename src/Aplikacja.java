@@ -1,3 +1,4 @@
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -185,7 +186,7 @@ public class Aplikacja {
     }
 
     //Tymczasowe wywołanie
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Aplikacja app = new Aplikacja();
 		Scanner in = new Scanner(System.in);
 
