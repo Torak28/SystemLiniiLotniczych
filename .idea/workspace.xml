@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notatki.md" afterPath="$PROJECT_DIR$/notatki.md" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -171,24 +171,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DodanieLotu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/DodanieLotu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="665">
               <caret line="285" column="13" selection-start-line="285" selection-start-column="13" selection-end-line="285" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notatki.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notatki.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -231,7 +241,6 @@
         <option value="$PROJECT_DIR$/src/Samolot.java" />
         <option value="$PROJECT_DIR$/test/FitNesse" />
         <option value="$PROJECT_DIR$/FitNesse.md" />
-        <option value="$PROJECT_DIR$/notatki.md" />
         <option value="$PROJECT_DIR$/Sekwencje.md" />
         <option value="$PROJECT_DIR$/test/DodawanieBiletu.java" />
         <option value="$PROJECT_DIR$/test/Naprawianie.java" />
@@ -248,6 +257,7 @@
         <option value="$PROJECT_DIR$/Selenium.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Aplikacja.java" />
+        <option value="$PROJECT_DIR$/notatki.md" />
       </list>
     </option>
   </component>
@@ -816,13 +826,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00057" summary="Poprawienie Sprawozdania">
-      <created>1484104940945</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1484104940945</updated>
-    </task>
     <task id="LOCAL-00058" summary="Do zrobienia">
       <created>1484405910156</created>
       <option name="number" value="00058" />
@@ -1159,7 +1162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486045041013</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Update TODO">
+      <created>1486045076773</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1486045076773</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1264,7 +1274,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Proste Mockowanie&#10;" />
     <MESSAGE value="dodanie Before&#10;" />
     <MESSAGE value="Zmiana Testowania, dodanie Before" />
     <MESSAGE value="Dodanie ostatniego testu&#10;" />
@@ -1289,7 +1298,8 @@
     <MESSAGE value="Bazy Danych OP" />
     <MESSAGE value="przesylam jeszcze TestCase z MF" />
     <MESSAGE value="koniec" />
-    <option name="LAST_COMMIT_MESSAGE" value="koniec" />
+    <MESSAGE value="Update TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update TODO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1479,24 +1489,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zmiany.md" />
-    <entry file="file://$PROJECT_DIR$/notatki.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sekwencje.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1744,6 +1736,26 @@
         <state relative-caret-position="665">
           <caret line="285" column="13" selection-start-line="285" selection-start-column="13" selection-end-line="285" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notatki.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
