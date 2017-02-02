@@ -284,7 +284,6 @@ public class Aplikacja {
 		System.out.println(app.raportWszystkieLoty());
 		/*
 		TODO:
-		* Usuwanie biletow dziala ale ruzca niepotrzebne Strigi
 		* Tryb Odpalenia
 		* Menu
 		 */

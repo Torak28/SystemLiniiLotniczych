@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b5985a9-cfc0-4efc-863d-72aa01b91ebd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aplikacja.java" afterPath="$PROJECT_DIR$/src/Aplikacja.java" />
     </list>
     <ignored path="IO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,7 +149,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -183,11 +183,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Aplikacja.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3043">
-              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+            <state relative-caret-position="665">
+              <caret line="285" column="13" selection-start-line="285" selection-start-column="13" selection-end-line="285" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -244,10 +244,10 @@
         <option value="$PROJECT_DIR$/TestyJednostkowe.md" />
         <option value="$PROJECT_DIR$/SeleniumTest/test.java" />
         <option value="$PROJECT_DIR$/SeleniumTest/testPelen.java" />
-        <option value="$PROJECT_DIR$/src/Aplikacja.java" />
         <option value="$PROJECT_DIR$/SeleniumTest/testPSQL.java" />
         <option value="$PROJECT_DIR$/Selenium.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Aplikacja.java" />
       </list>
     </option>
   </component>
@@ -816,13 +816,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482241257983</updated>
     </task>
-    <task id="LOCAL-00056" summary="Zmiana Sprawozdania">
-      <created>1484103058007</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1484103058007</updated>
-    </task>
     <task id="LOCAL-00057" summary="Poprawienie Sprawozdania">
       <created>1484104940945</created>
       <option name="number" value="00057" />
@@ -1159,7 +1152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485942403919</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="koniec">
+      <created>1486045041012</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1486045041013</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1264,7 +1264,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tadam" />
     <MESSAGE value="Proste Mockowanie&#10;" />
     <MESSAGE value="dodanie Before&#10;" />
     <MESSAGE value="Zmiana Testowania, dodanie Before" />
@@ -1289,7 +1288,8 @@
     <MESSAGE value="OP2&#10;" />
     <MESSAGE value="Bazy Danych OP" />
     <MESSAGE value="przesylam jeszcze TestCase z MF" />
-    <option name="LAST_COMMIT_MESSAGE" value="przesylam jeszcze TestCase z MF" />
+    <MESSAGE value="koniec" />
+    <option name="LAST_COMMIT_MESSAGE" value="koniec" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1601,14 +1601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3043">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/DodanieLotu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1744,6 +1736,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aplikacja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="285" column="13" selection-start-line="285" selection-start-column="13" selection-end-line="285" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
